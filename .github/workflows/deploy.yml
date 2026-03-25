@@ -5,7 +5,7 @@ on:
     - cron: "0 */2 * * *"   # toutes les 2 heures
   push:
     branches: [main]
-  workflow_dispatch:          # déclenchement manuel possible
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -29,10 +29,12 @@ jobs:
           python-version: "3.11"
 
       - name: Installer les dépendances
-        run: pip install feedparser requests
+        run: pip install feedparser requests anthropic
 
-      - name: Générer articles.json
+      - name: Générer articles.json (avec scoring IA)
         run: python generate_static.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Upload artifact GitHub Pages
         uses: actions/upload-pages-artifact@v3

@@ -155,6 +155,19 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
 .empty h3{font-size:1.1rem;margin-bottom:6px}
 .empty p{font-size:14px}
 
+/* ── Score IA badge ──────────────────────────────────────────────────────── */
+.ai-badge{
+  display:inline-flex;align-items:center;gap:4px;border-radius:6px;
+  padding:2px 8px;font-size:11px;font-weight:800;letter-spacing:.04em;
+}
+.ai-badge.top{background:linear-gradient(135deg,#f59e0b,#ef4444);color:#fff}
+.ai-badge.good{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
+.ai-badge.ok{background:var(--bg3);color:var(--text2);border:1px solid var(--border)}
+.ai-reason{
+  font-size:12px;color:var(--accent2);font-style:italic;
+  line-height:1.4;margin-top:-4px;
+}
+
 /* ── Section "Autres" label ──────────────────────────────────────────────── */
 .section-label{
   grid-column:1/-1;display:flex;align-items:center;gap:12px;
@@ -293,19 +306,30 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
     return arts;
   }
 
+  function aiBadge(a){
+    const s = a.ai_score || 0;
+    if(!s || s < 6) return "";
+    if(s >= 9) return `<span class="ai-badge top">🔥 Incontournable ${s}/10</span>`;
+    if(s >= 7) return `<span class="ai-badge good">⭐ Recommandé ${s}/10</span>`;
+    return `<span class="ai-badge ok">${s}/10</span>`;
+  }
+
   function cardHTML(a, i, showCatBadge){
     const delay = Math.min(i,30)*20;
+    const badge = aiBadge(a);
     return `<div class="card" style="animation-delay:${delay}ms">
       ${a.image ? `<div class="card-img"><img src="${esc(a.image)}" loading="lazy" onerror="this.closest('.card-img').style.display='none'" alt="">
         ${showCatBadge?`<span class="cat-badge">${ICONS[a.category]||""} ${esc(a.category)}</span>`:""}
       </div>` : ""}
       <div class="card-body">
         <div class="card-meta">
+          ${badge}
           <span class="src">${esc(a.source)}</span>
           <span class="flag">${a.flag||""}</span>
           <span class="dtime">${relTime(a.date)}</span>
         </div>
         <div class="card-title">${esc(a.title)}</div>
+        ${a.ai_reason ? `<div class="ai-reason">💡 ${esc(a.ai_reason)}</div>` : ""}
         ${a.summary?`<div class="card-sum">${esc(a.summary)}</div>`:""}
         <div class="card-foot">
           <a href="${esc(a.link)}" target="_blank" rel="noopener" class="read-btn">
@@ -376,9 +400,10 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
       buildNav(counts);
 
       const ts = data.generated_at ? new Date(data.generated_at).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}) : "";
-      lastUpd.textContent = ts ? `Généré à ${ts} UTC` : "";
+      const aiLabel = data.ai_filtered ? " · Filtré par IA 🤖" : "";
+      lastUpd.textContent = ts ? `Généré à ${ts} UTC${aiLabel}` : "";
 
-      setStatus("ok", `${allArticles.length} articles chargés`);
+      setStatus("ok", `${allArticles.length} articles${data.ai_filtered ? " sélectionnés par IA" : " chargés"}`);
       filterAndRender();
     } catch(e){
       setStatus("err", "Erreur de chargement — vérifiez que le serveur est démarré");
