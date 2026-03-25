@@ -1,1 +1,15 @@
-{"runs": []}
+{
+  "runs": [
+    {
+      "model": "claude-haiku-4-5",
+      "input_tokens": 57784,
+      "output_tokens": 22369,
+      "cost_usd": 0.16963,
+      "articles_scored": 417,
+      "articles_kept": 131,
+      "price_input_per_m": 1.0,
+      "price_output_per_m": 5.0,
+      "timestamp": "2026-03-25T22:59:48.892741+00:00"
+    }
+  ]
+}
