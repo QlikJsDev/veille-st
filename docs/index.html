@@ -493,7 +493,7 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
           <div style="background:var(--bg3);border-radius:8px;padding:10px">
             <div style="color:var(--text2);font-size:11px;margin-bottom:3px">DERNIER RUN</div>
             <div style="font-size:1.3rem;font-weight:800;color:var(--accent)">${fmtUSD(last.cost_usd||0)}</div>
-            <div style="color:var(--text2);font-size:11px">${last.articles_kept}/${last.articles_scored} articles</div>
+            <div style="color:var(--text2);font-size:11px">${last.articles_kept} gardés · ${last.articles_new||last.articles_scored} scorés</div>
           </div>
           <div style="background:var(--bg3);border-radius:8px;padding:10px">
             <div style="color:var(--text2);font-size:11px;margin-bottom:3px">PROJECTION MOIS</div>
@@ -505,9 +505,14 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
         <div style="background:var(--bg3);border-radius:8px;padding:10px;margin-bottom:14px">
           <div style="color:var(--text2);font-size:11px;margin-bottom:6px">TOKENS DERNIER RUN (${last.model||"haiku"})</div>
           <div style="display:flex;gap:16px">
-            <span>📥 <b>${fmtK(last.input_tokens||0)}</b> input</span>
-            <span>📤 <b>${fmtK(last.output_tokens||0)}</b> output</span>
+            <span>📥 <b>${fmtK(last.input_tokens||0)}</b> in</span>
+            <span>📤 <b>${fmtK(last.output_tokens||0)}</b> out</span>
           </div>
+          ${(last.articles_from_cache||0) > 0 ? `
+          <div style="margin-top:6px;display:flex;gap:8px;font-size:11px">
+            <span style="color:var(--green)">✓ ${last.articles_from_cache} depuis cache</span>
+            <span style="color:var(--yellow)">⚡ ${last.articles_new||0} nouveaux scorés</span>
+          </div>` : ""}
           <div style="color:var(--text2);font-size:11px;margin-top:4px">
             $${last.price_input_per_m||1}/M in · $${last.price_output_per_m||5}/M out
           </div>

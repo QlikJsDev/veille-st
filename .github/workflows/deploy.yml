@@ -2,7 +2,7 @@ name: Génération & Déploiement GitHub Pages
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */4 * * *"   # toutes les 4 heures
   push:
     branches: [main]
   workflow_dispatch:
@@ -40,8 +40,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/costs.json
-          git diff --staged --quiet || git commit -m "chore: update costs history [skip ci]"
+          git add docs/costs.json docs/score_cache.json
+          git diff --staged --quiet || git commit -m "chore: update costs + score cache [skip ci]"
           git push
         continue-on-error: true   # ne pas bloquer si rien à commiter
 

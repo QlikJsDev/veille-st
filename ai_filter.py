@@ -1,12 +1,16 @@
-"""ai_filter.py – scoring des articles via Claude API + tracking des coûts."""
+"""ai_filter.py – scoring avec cache persistant (ne re-score que les nouveaux articles)."""
 from __future__ import annotations
 import json
+import os
 import re
+from datetime import datetime, timezone, timedelta
 import anthropic
 from core import date_ts
 
-MIN_SCORE  = 6
-BATCH_SIZE = 20
+MIN_SCORE      = 6
+BATCH_SIZE     = 25
+CACHE_TTL_DAYS = 7     # re-scorer un article après 7 jours
+SCORE_CACHE    = os.path.join(os.path.dirname(__file__), "docs", "score_cache.json")
 
 # Tarifs Claude Haiku 4.5 ($/1M tokens)
 PRICE_INPUT  = 1.00
@@ -47,39 +51,88 @@ Grille de notation :
   • Article vague sans information actionnable"""
 
 
+# ── Cache ─────────────────────────────────────────────────────────────────────
+def _load_cache() -> dict:
+    try:
+        with open(SCORE_CACHE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"scores": {}}
+
+
+def _save_cache(cache: dict) -> None:
+    # Purger les entrées > CACHE_TTL_DAYS
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=CACHE_TTL_DAYS)).isoformat()
+    cache["scores"] = {
+        url: v for url, v in cache["scores"].items()
+        if v.get("scored_at", "0") > cutoff
+    }
+    os.makedirs(os.path.dirname(SCORE_CACHE), exist_ok=True)
+    with open(SCORE_CACHE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+# ── Scoring principal ─────────────────────────────────────────────────────────
 def score_and_filter(articles: list[dict], api_key: str) -> tuple[list[dict], dict]:
     """
-    Score tous les articles et retourne (articles_filtrés, cost_info).
-    cost_info = {input_tokens, output_tokens, cost_usd, articles_scored, articles_kept, model}
+    Score les articles nouveaux (non cachés), applique le cache aux autres.
+    Retourne (articles_filtrés, cost_info).
     """
     client = anthropic.Anthropic(api_key=api_key)
-    total = len(articles)
+    cache  = _load_cache()
+    now    = datetime.now(timezone.utc).isoformat()
+
+    # Séparer articles déjà scorés (cache valide) et nouveaux
+    cached_hits, to_score = [], []
+    for a in articles:
+        url   = a.get("link", "")
+        entry = cache["scores"].get(url)
+        if entry:
+            a["ai_score"]  = entry["score"]
+            a["ai_reason"] = entry["reason"]
+            cached_hits.append(a)
+        else:
+            to_score.append(a)
+
     total_input  = 0
     total_output = 0
 
-    print(f"  Scoring {total} articles par lots de {BATCH_SIZE}…")
+    print(f"  Cache : {len(cached_hits)} articles déjà scorés, {len(to_score)} nouveaux à scorer")
 
-    for i in range(0, total, BATCH_SIZE):
-        batch      = articles[i:i + BATCH_SIZE]
-        batch_num  = i // BATCH_SIZE + 1
-        n_batches  = (total + BATCH_SIZE - 1) // BATCH_SIZE
-        try:
-            inp, out = _score_batch(client, batch)
-            total_input  += inp
-            total_output += out
-            kept = sum(1 for a in batch if a.get("ai_score", 0) >= MIN_SCORE)
-            cost_batch = _cost(inp, out)
-            print(f"    Lot {batch_num}/{n_batches} : {kept}/{len(batch)} conservés "
-                  f"| {inp}+{out} tok | ${cost_batch:.4f}")
-        except Exception as e:
-            print(f"    Lot {batch_num}/{n_batches} erreur : {e}")
-            for a in batch:
-                a.setdefault("ai_score", 5)
-                a.setdefault("ai_reason", "")
+    # Scorer uniquement les nouveaux articles
+    if to_score:
+        for i in range(0, len(to_score), BATCH_SIZE):
+            batch     = to_score[i:i + BATCH_SIZE]
+            batch_num = i // BATCH_SIZE + 1
+            n_batches = (len(to_score) + BATCH_SIZE - 1) // BATCH_SIZE
+            try:
+                inp, out = _score_batch(client, batch)
+                total_input  += inp
+                total_output += out
+                # Mettre en cache
+                for a in batch:
+                    cache["scores"][a.get("link", "")] = {
+                        "score":     a["ai_score"],
+                        "reason":    a["ai_reason"],
+                        "scored_at": now,
+                    }
+                kept = sum(1 for a in batch if a.get("ai_score", 0) >= MIN_SCORE)
+                print(f"    Lot {batch_num}/{n_batches} : {kept}/{len(batch)} conservés "
+                      f"| {inp}+{out} tok | ${_cost(inp, out):.4f}")
+            except Exception as e:
+                print(f"    Lot {batch_num}/{n_batches} erreur : {e}")
+                for a in batch:
+                    a.setdefault("ai_score", 5)
+                    a.setdefault("ai_reason", "")
+    else:
+        print("  Aucun nouvel article — 0 appel API (100% cache)")
 
-    # Filtrage et tri
-    kept_articles = [a for a in articles if a.get("ai_score", 0) >= MIN_SCORE]
-    kept_articles.sort(key=lambda a: (
+    _save_cache(cache)
+
+    # Fusionner et filtrer
+    all_articles = cached_hits + to_score
+    kept = [a for a in all_articles if a.get("ai_score", 0) >= MIN_SCORE]
+    kept.sort(key=lambda a: (
         0 if a["lang"] == "fr" else 1,
         -a.get("ai_score", 5),
         -date_ts(a),
@@ -87,19 +140,21 @@ def score_and_filter(articles: list[dict], api_key: str) -> tuple[list[dict], di
 
     run_cost = _cost(total_input, total_output)
     cost_info = {
-        "model":            MODEL,
-        "input_tokens":     total_input,
-        "output_tokens":    total_output,
-        "cost_usd":         round(run_cost, 5),
-        "articles_scored":  total,
-        "articles_kept":    len(kept_articles),
+        "model":              MODEL,
+        "input_tokens":       total_input,
+        "output_tokens":      total_output,
+        "cost_usd":           round(run_cost, 5),
+        "articles_scored":    len(articles),
+        "articles_new":       len(to_score),
+        "articles_from_cache":len(cached_hits),
+        "articles_kept":      len(kept),
         "price_input_per_m":  PRICE_INPUT,
         "price_output_per_m": PRICE_OUTPUT,
     }
 
-    print(f"  Résultat : {len(kept_articles)}/{total} conservés | "
-          f"Tokens : {total_input}+{total_output} | Coût : ${run_cost:.4f}")
-    return kept_articles, cost_info
+    print(f"  Résultat : {len(kept)}/{len(articles)} conservés | "
+          f"Tokens : {total_input}+{total_output} | Coût run : ${run_cost:.4f}")
+    return kept, cost_info
 
 
 def _cost(inp: int, out: int) -> float:
@@ -107,7 +162,7 @@ def _cost(inp: int, out: int) -> float:
 
 
 def _score_batch(client: anthropic.Anthropic, articles: list[dict]) -> tuple[int, int]:
-    """Score un lot — modifie les dicts en place. Retourne (input_tokens, output_tokens)."""
+    """Score un lot, modifie les dicts en place. Retourne (input_tokens, output_tokens)."""
     articles_text = "\n\n".join(
         f"[{i}] SOURCE: {a['source']} | CATÉGORIE: {a['category']}\n"
         f"TITRE: {a['title']}\n"
