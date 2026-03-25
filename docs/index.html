@@ -208,10 +208,25 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
           <path d="M3 3v5h5"/>
         </svg>
       </button>
+      <button class="btn-ic" id="costsBtn" title="Coûts IA">💰</button>
       <button class="btn-ic" id="themeBtn" title="Thème"><span id="themeIco">☀️</span></button>
     </div>
   </div>
 </header>
+
+<!-- ── Panneau coûts ──────────────────────────────────────────────────────── -->
+<div id="costsPanel" style="display:none;position:fixed;top:70px;right:16px;z-index:200;
+  width:340px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden">
+  <div style="padding:14px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
+    <span style="font-weight:700;font-size:14px">💰 Monitoring coûts IA</span>
+    <button onclick="document.getElementById('costsPanel').style.display='none'"
+      style="background:none;border:none;color:var(--text2);cursor:pointer;font-size:18px;line-height:1">×</button>
+  </div>
+  <div id="costsContent" style="padding:16px;font-size:13px">
+    <div style="color:var(--text2)">Chargement…</div>
+  </div>
+</div>
 
 <!-- ── Navigation catégories ──────────────────────────────────────────────── -->
 <nav class="cats-bar">
@@ -442,8 +457,108 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
     themeIco.textContent = dark?"🌙":"☀️";
   });
 
+  /* ── Panneau coûts ───────────────────────────────────────────────────── */
+  const costsBtn   = document.getElementById("costsBtn");
+  const costsPanel = document.getElementById("costsPanel");
+  const costsCont  = document.getElementById("costsContent");
+  let   costsLoaded = false;
+
+  function fmtUSD(v){ return v < 0.01 ? `$${(v*100).toFixed(3)}¢` : `$${v.toFixed(4)}`; }
+  function fmtK(n){ return n >= 1000 ? `${(n/1000).toFixed(1)}k` : String(n); }
+
+  async function loadCosts(){
+    if(costsLoaded) return;
+    try {
+      const r = await fetch("./costs.json");
+      if(!r.ok) throw new Error("costs.json introuvable");
+      const d = await r.json();
+      const runs = d.runs || [];
+      if(!runs.length){ costsCont.innerHTML = "<p style='color:var(--text2)'>Aucun run enregistré.</p>"; return; }
+
+      const total   = runs.reduce((s,r)=> s + (r.cost_usd||0), 0);
+      const avg     = total / runs.length;
+      const perDay  = avg * 12;     // ~toutes les 2h = 12/jour
+      const perMo   = perDay * 30;
+      const last    = runs[runs.length-1];
+
+      // Sparkline (mini graphique ASCII / barres)
+      const maxCost = Math.max(...runs.map(r=>r.cost_usd||0));
+      const spark   = runs.slice(-20).map(r=>{
+        const pct = maxCost ? (r.cost_usd||0)/maxCost : 0;
+        return pct > .75?"█": pct > .5?"▆": pct > .25?"▄":"▂";
+      }).join("");
+
+      costsCont.innerHTML = `
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
+          <div style="background:var(--bg3);border-radius:8px;padding:10px">
+            <div style="color:var(--text2);font-size:11px;margin-bottom:3px">DERNIER RUN</div>
+            <div style="font-size:1.3rem;font-weight:800;color:var(--accent)">${fmtUSD(last.cost_usd||0)}</div>
+            <div style="color:var(--text2);font-size:11px">${last.articles_kept}/${last.articles_scored} articles</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:8px;padding:10px">
+            <div style="color:var(--text2);font-size:11px;margin-bottom:3px">PROJECTION MOIS</div>
+            <div style="font-size:1.3rem;font-weight:800;color:var(--accent2)">${fmtUSD(perMo)}</div>
+            <div style="color:var(--text2);font-size:11px">${fmtUSD(perDay)}/jour</div>
+          </div>
+        </div>
+
+        <div style="background:var(--bg3);border-radius:8px;padding:10px;margin-bottom:14px">
+          <div style="color:var(--text2);font-size:11px;margin-bottom:6px">TOKENS DERNIER RUN (${last.model||"haiku"})</div>
+          <div style="display:flex;gap:16px">
+            <span>📥 <b>${fmtK(last.input_tokens||0)}</b> input</span>
+            <span>📤 <b>${fmtK(last.output_tokens||0)}</b> output</span>
+          </div>
+          <div style="color:var(--text2);font-size:11px;margin-top:4px">
+            $${last.price_input_per_m||1}/M in · $${last.price_output_per_m||5}/M out
+          </div>
+        </div>
+
+        <div style="background:var(--bg3);border-radius:8px;padding:10px;margin-bottom:14px">
+          <div style="color:var(--text2);font-size:11px;margin-bottom:4px">
+            HISTORIQUE (${runs.length} runs · total ${fmtUSD(total)})
+          </div>
+          <div style="font-family:monospace;font-size:14px;letter-spacing:1px;color:var(--accent)">${spark}</div>
+          <div style="color:var(--text2);font-size:11px;margin-top:3px">Chaque barre = 1 run · moy. ${fmtUSD(avg)}/run</div>
+        </div>
+
+        <div style="overflow:auto;max-height:180px">
+          <table style="width:100%;border-collapse:collapse;font-size:12px">
+            <thead><tr style="color:var(--text2)">
+              <th style="text-align:left;padding:3px 6px">Date</th>
+              <th style="text-align:right;padding:3px 6px">Coût</th>
+              <th style="text-align:right;padding:3px 6px">Articles</th>
+              <th style="text-align:right;padding:3px 6px">Tokens</th>
+            </tr></thead>
+            <tbody>
+              ${[...runs].reverse().slice(0,15).map(r=>`
+              <tr style="border-top:1px solid var(--border)">
+                <td style="padding:3px 6px;color:var(--text2)">${new Date(r.timestamp).toLocaleString("fr-BE",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})}</td>
+                <td style="padding:3px 6px;text-align:right;font-weight:600;color:var(--accent)">${fmtUSD(r.cost_usd||0)}</td>
+                <td style="padding:3px 6px;text-align:right">${r.articles_kept}/${r.articles_scored}</td>
+                <td style="padding:3px 6px;text-align:right;color:var(--text2)">${fmtK((r.input_tokens||0)+(r.output_tokens||0))}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>`;
+      costsLoaded = true;
+    } catch(e){
+      costsCont.innerHTML = `<p style="color:var(--text2)">Données disponibles après le premier run avec IA.<br><small>${esc(String(e))}</small></p>`;
+    }
+  }
+
+  costsBtn.addEventListener("click", ()=>{
+    const visible = costsPanel.style.display !== "none";
+    costsPanel.style.display = visible ? "none" : "block";
+    if(!visible) loadCosts();
+  });
+
+  document.addEventListener("click", e=>{
+    if(!costsPanel.contains(e.target) && e.target !== costsBtn)
+      costsPanel.style.display = "none";
+  });
+
   /* ── Init ─────────────────────────────────────────────────────────────── */
-  buildNav({});  // nav vide pendant le chargement
+  buildNav({});
   load(false);
 })();
 </script>

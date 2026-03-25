@@ -4,5 +4,6 @@ __pycache__/
 .env
 venv/
 .venv/
-# Le JSON est généré par GitHub Actions, pas commité localement
+# articles.json est généré par GitHub Actions, pas commité localement
 docs/articles.json
+# costs.json est commité automatiquement par le workflow (historique persistant)

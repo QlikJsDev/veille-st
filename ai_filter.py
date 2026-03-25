@@ -1,12 +1,17 @@
-"""ai_filter.py – scoring des articles via Claude API (Haiku pour l'efficacité coût)."""
+"""ai_filter.py – scoring des articles via Claude API + tracking des coûts."""
 from __future__ import annotations
 import json
 import re
 import anthropic
 from core import date_ts
 
-MIN_SCORE  = 6    # seuil pour garder un article
-BATCH_SIZE = 20   # articles par appel API
+MIN_SCORE  = 6
+BATCH_SIZE = 20
+
+# Tarifs Claude Haiku 4.5 ($/1M tokens)
+PRICE_INPUT  = 1.00
+PRICE_OUTPUT = 5.00
+MODEL        = "claude-haiku-4-5"
 
 
 SYSTEM_PROMPT = """Tu es un expert en veille technologique et stratégique.
@@ -42,42 +47,67 @@ Grille de notation :
   • Article vague sans information actionnable"""
 
 
-def score_and_filter(articles: list[dict], api_key: str) -> list[dict]:
-    """Score tous les articles et retourne les plus pertinents triés."""
+def score_and_filter(articles: list[dict], api_key: str) -> tuple[list[dict], dict]:
+    """
+    Score tous les articles et retourne (articles_filtrés, cost_info).
+    cost_info = {input_tokens, output_tokens, cost_usd, articles_scored, articles_kept, model}
+    """
     client = anthropic.Anthropic(api_key=api_key)
     total = len(articles)
-    print(f"  Scoring {total} articles par lot de {BATCH_SIZE}…")
+    total_input  = 0
+    total_output = 0
+
+    print(f"  Scoring {total} articles par lots de {BATCH_SIZE}…")
 
     for i in range(0, total, BATCH_SIZE):
-        batch = articles[i:i + BATCH_SIZE]
-        batch_num = i // BATCH_SIZE + 1
-        total_batches = (total + BATCH_SIZE - 1) // BATCH_SIZE
+        batch      = articles[i:i + BATCH_SIZE]
+        batch_num  = i // BATCH_SIZE + 1
+        n_batches  = (total + BATCH_SIZE - 1) // BATCH_SIZE
         try:
-            _score_batch(client, batch)
+            inp, out = _score_batch(client, batch)
+            total_input  += inp
+            total_output += out
             kept = sum(1 for a in batch if a.get("ai_score", 0) >= MIN_SCORE)
-            print(f"    Lot {batch_num}/{total_batches} : {kept}/{len(batch)} conservés")
+            cost_batch = _cost(inp, out)
+            print(f"    Lot {batch_num}/{n_batches} : {kept}/{len(batch)} conservés "
+                  f"| {inp}+{out} tok | ${cost_batch:.4f}")
         except Exception as e:
-            print(f"    Lot {batch_num}/{total_batches} erreur : {e} — score neutre appliqué")
+            print(f"    Lot {batch_num}/{n_batches} erreur : {e}")
             for a in batch:
                 a.setdefault("ai_score", 5)
                 a.setdefault("ai_reason", "")
 
-    # Filtrage
-    kept = [a for a in articles if a.get("ai_score", 0) >= MIN_SCORE]
-
-    # Tri : FR en premier, puis score décroissant, puis date
-    kept.sort(key=lambda a: (
+    # Filtrage et tri
+    kept_articles = [a for a in articles if a.get("ai_score", 0) >= MIN_SCORE]
+    kept_articles.sort(key=lambda a: (
         0 if a["lang"] == "fr" else 1,
         -a.get("ai_score", 5),
         -date_ts(a),
     ))
 
-    print(f"  Résultat : {len(kept)}/{total} articles conservés (score ≥ {MIN_SCORE})")
-    return kept
+    run_cost = _cost(total_input, total_output)
+    cost_info = {
+        "model":            MODEL,
+        "input_tokens":     total_input,
+        "output_tokens":    total_output,
+        "cost_usd":         round(run_cost, 5),
+        "articles_scored":  total,
+        "articles_kept":    len(kept_articles),
+        "price_input_per_m":  PRICE_INPUT,
+        "price_output_per_m": PRICE_OUTPUT,
+    }
+
+    print(f"  Résultat : {len(kept_articles)}/{total} conservés | "
+          f"Tokens : {total_input}+{total_output} | Coût : ${run_cost:.4f}")
+    return kept_articles, cost_info
 
 
-def _score_batch(client: anthropic.Anthropic, articles: list[dict]) -> None:
-    """Score un lot d'articles en place — modifie les dicts directement."""
+def _cost(inp: int, out: int) -> float:
+    return (inp / 1_000_000 * PRICE_INPUT) + (out / 1_000_000 * PRICE_OUTPUT)
+
+
+def _score_batch(client: anthropic.Anthropic, articles: list[dict]) -> tuple[int, int]:
+    """Score un lot — modifie les dicts en place. Retourne (input_tokens, output_tokens)."""
     articles_text = "\n\n".join(
         f"[{i}] SOURCE: {a['source']} | CATÉGORIE: {a['category']}\n"
         f"TITRE: {a['title']}\n"
@@ -86,30 +116,33 @@ def _score_batch(client: anthropic.Anthropic, articles: list[dict]) -> None:
     )
 
     user_msg = (
-        f"Note chaque article selon la grille. "
-        f"Réponds UNIQUEMENT en JSON valide :\n"
-        f'```json\n{{"scores":[{{"index":0,"score":8,"raison":"1 phrase max"}}]}}\n```\n\n'
+        "Note chaque article selon la grille. "
+        "Réponds UNIQUEMENT en JSON valide :\n"
+        '```json\n{"scores":[{"index":0,"score":8,"raison":"1 phrase max"}]}\n```\n\n'
         f"Articles :\n{articles_text}"
     )
 
     response = client.messages.create(
-        model="claude-haiku-4-5",
+        model=MODEL,
         max_tokens=1200,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_msg}],
     )
 
-    text = response.content[0].text.strip()
+    inp = response.usage.input_tokens
+    out = response.usage.output_tokens
 
-    # Extraire le JSON même entouré de backticks ou de texte
+    text = response.content[0].text.strip()
     m = re.search(r'\{[\s\S]*"scores"[\s\S]*\}', text)
     if not m:
-        raise ValueError(f"JSON introuvable dans la réponse : {text[:200]}")
+        raise ValueError(f"JSON introuvable : {text[:200]}")
 
-    result = json.loads(m.group(0))
+    result     = json.loads(m.group(0))
     scores_map = {s["index"]: s for s in result.get("scores", [])}
 
     for i, article in enumerate(articles):
         info = scores_map.get(i, {})
         article["ai_score"]  = int(info.get("score", 5))
         article["ai_reason"] = str(info.get("raison", ""))
+
+    return inp, out
