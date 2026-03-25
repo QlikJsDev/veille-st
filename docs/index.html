@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veille S&T – Scientifique & Tech</title>
+<style>
+/* ── Reset & Variables ──────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0f1a;--bg2:#161929;--bg3:#1e2235;--border:#2a2f4a;
+  --text:#e4e6f2;--text2:#8890b5;
+  --accent:#6c8ef7;--accent2:#a78bfa;
+  --green:#34d399;--red:#f87171;--yellow:#fbbf24;
+  --radius:14px;--shadow:0 6px 24px rgba(0,0,0,.5);--trans:.2s ease;
+}
+[data-theme="light"]{
+  --bg:#f2f4fc;--bg2:#fff;--bg3:#eaecf8;--border:#d4d8f0;
+  --text:#1a1d2e;--text2:#5c637d;--shadow:0 4px 16px rgba(0,0,0,.1);
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;font-size:15px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+header{
+  background:var(--bg2);border-bottom:1px solid var(--border);
+  padding:0 20px;position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(16px);
+}
+.hdr{max-width:1500px;margin:auto;display:flex;align-items:center;gap:14px;height:62px}
+.logo{
+  font-size:1.25rem;font-weight:800;white-space:nowrap;flex-shrink:0;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+}
+.search-wrap{flex:1;max-width:440px;position:relative}
+.search-wrap input{
+  width:100%;background:var(--bg3);border:1px solid var(--border);
+  border-radius:9px;padding:8px 14px 8px 38px;color:var(--text);
+  font-size:14px;outline:none;transition:border-color var(--trans);
+}
+.search-wrap input:focus{border-color:var(--accent)}
+.search-wrap input::placeholder{color:var(--text2)}
+.search-icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--text2);pointer-events:none}
+.hdr-right{display:flex;align-items:center;gap:8px;margin-left:auto}
+.btn-ic{
+  background:var(--bg3);border:1px solid var(--border);border-radius:8px;
+  padding:7px 10px;cursor:pointer;color:var(--text2);font-size:15px;
+  transition:all var(--trans);display:flex;align-items:center;gap:5px
+}
+.btn-ic:hover{border-color:var(--accent);color:var(--accent)}
+.btn-ic.spin svg{animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.lang-sw{display:flex;background:var(--bg3);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.lng{padding:6px 10px;cursor:pointer;font-size:13px;font-weight:600;color:var(--text2);border:none;background:none;transition:all var(--trans)}
+.lng.on{background:var(--accent);color:#fff}
+
+/* ── Catégories nav ──────────────────────────────────────────────────────── */
+.cats-bar{background:var(--bg2);border-bottom:1px solid var(--border);position:sticky;top:62px;z-index:99}
+.cats{max-width:1500px;margin:auto;display:flex;gap:4px;padding:8px 20px;overflow-x:auto}
+.cats::-webkit-scrollbar{height:0}
+.cat{
+  background:none;border:1px solid transparent;border-radius:9px;
+  padding:7px 15px;cursor:pointer;color:var(--text2);font-size:14px;
+  font-weight:600;white-space:nowrap;transition:all var(--trans);
+  display:flex;align-items:center;gap:6px
+}
+.cat:hover{border-color:var(--border);background:var(--bg3);color:var(--text)}
+.cat.on{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+.cat-n{background:rgba(255,255,255,.18);border-radius:99px;padding:1px 7px;font-size:11px}
+.cat:not(.on) .cat-n{background:var(--bg3);color:var(--text2)}
+
+/* ── Main ────────────────────────────────────────────────────────────────── */
+main{max-width:1500px;margin:0 auto;padding:22px 20px}
+.status{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:8px}
+.s-left{font-size:13px;color:var(--text2);display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0}
+.dot.ld{background:var(--yellow);animation:pulse 1s ease-in-out infinite}
+.dot.er{background:var(--red)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.s-right{font-size:12px;color:var(--text2)}
+
+/* ── Grid ────────────────────────────────────────────────────────────────── */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px}
+
+/* ── Card ────────────────────────────────────────────────────────────────── */
+.card{
+  background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform var(--trans),box-shadow var(--trans),border-color var(--trans);
+  animation:fi .3s ease forwards;opacity:0;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--accent)}
+@keyframes fi{to{opacity:1}}
+
+/* Image */
+.card-img{
+  width:100%;height:190px;overflow:hidden;background:var(--bg3);
+  position:relative;flex-shrink:0;
+}
+.card-img img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .4s ease;display:block;
+}
+.card:hover .card-img img{transform:scale(1.06)}
+.card-img .cat-badge{
+  position:absolute;top:10px;left:10px;
+  background:rgba(0,0,0,.65);backdrop-filter:blur(6px);
+  border-radius:6px;padding:3px 9px;font-size:11px;font-weight:700;
+  color:#fff;letter-spacing:.03em;
+}
+
+/* Body */
+.card-body{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.card-meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.src{
+  background:var(--bg3);border:1px solid var(--border);border-radius:6px;
+  padding:2px 8px;font-size:11px;font-weight:700;color:var(--accent);white-space:nowrap
+}
+.flag{font-size:14px}
+.dtime{margin-left:auto;font-size:11px;color:var(--text2);white-space:nowrap}
+.card-title{
+  font-size:15px;font-weight:700;line-height:1.4;color:var(--text);
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+  transition:color var(--trans);
+}
+.card:hover .card-title{color:var(--accent)}
+.card-sum{
+  font-size:13px;color:var(--text2);line-height:1.55;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1
+}
+.card-foot{margin-top:auto;padding-top:12px;border-top:1px solid var(--border)}
+.read-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#fff;border-radius:8px;padding:8px 16px;
+  font-size:13px;font-weight:700;transition:opacity var(--trans);
+}
+.read-btn:hover{opacity:.82}
+
+/* ── Skeleton ────────────────────────────────────────────────────────────── */
+.skel-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.skel-img{height:190px;background:var(--bg3)}
+.skel-body{padding:16px;display:flex;flex-direction:column;gap:12px}
+.sk{background:linear-gradient(90deg,var(--bg3) 25%,var(--border) 50%,var(--bg3) 75%);background-size:200% 100%;border-radius:6px;animation:sh 1.4s infinite}
+@keyframes sh{to{background-position:-200% 0}}
+
+/* ── States ──────────────────────────────────────────────────────────────── */
+.empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--text2)}
+.empty .ico{font-size:3rem;margin-bottom:12px}
+.empty h3{font-size:1.1rem;margin-bottom:6px}
+.empty p{font-size:14px}
+
+/* ── Section "Autres" label ──────────────────────────────────────────────── */
+.section-label{
+  grid-column:1/-1;display:flex;align-items:center;gap:12px;
+  padding:8px 0;font-size:13px;font-weight:700;color:var(--text2);
+  text-transform:uppercase;letter-spacing:.06em;
+}
+.section-label::after{content:"";flex:1;height:1px;background:var(--border)}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media(max-width:600px){
+  .logo{font-size:1rem}.hdr{gap:10px}
+  main{padding:14px}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header>
+  <div class="hdr">
+    <div class="logo">📡 Veille S&T</div>
+    <div class="search-wrap">
+      <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Rechercher…">
+    </div>
+    <div class="hdr-right">
+      <div class="lang-sw">
+        <button class="lng on" data-lang="all">Tout</button>
+        <button class="lng" data-lang="fr">🇫🇷 FR</button>
+        <button class="lng" data-lang="en">🇬🇧 EN</button>
+      </div>
+      <button class="btn-ic" id="refreshBtn" title="Rafraîchir">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+          <path d="M3 3v5h5"/>
+        </svg>
+      </button>
+      <button class="btn-ic" id="themeBtn" title="Thème"><span id="themeIco">☀️</span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ── Navigation catégories ──────────────────────────────────────────────── -->
+<nav class="cats-bar">
+  <div class="cats" id="catsNav">
+    <!-- Généré par JS -->
+  </div>
+</nav>
+
+<!-- ── Main ────────────────────────────────────────────────────────────────── -->
+<main>
+  <div class="status">
+    <div class="s-left"><div class="dot ld" id="dot"></div><span id="statusTxt">Chargement des flux…</span></div>
+    <span class="s-right" id="lastUpd"></span>
+  </div>
+  <div class="grid" id="grid">
+    <!-- skeletons -->
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+    <div class="skel-card"><div class="skel-img sk"></div><div class="skel-body"><div class="sk" style="height:14px;width:40%"></div><div class="sk" style="height:18px;width:90%"></div><div class="sk" style="height:13px;width:100%"></div><div class="sk" style="height:13px;width:75%"></div></div></div>
+  </div>
+</main>
+
+<script>
+(() => {
+  /* ── Config ───────────────────────────────────────────────────────────── */
+  const CATEGORIES = ["IA & Tech","Science","Électronique","Géopolitique","Économie & Marchés","Immobilier Belgique","Autres"];
+  const ICONS = {"IA & Tech":"🤖","Science":"🔬","Électronique":"🔌","Géopolitique":"🌍","Économie & Marchés":"📈","Immobilier Belgique":"🏠","Autres":"📰"};
+
+  /* ── State ────────────────────────────────────────────────────────────── */
+  let allArticles = [];
+  let currentCat  = "Tout";
+  let currentLang = "all";
+  let searchQuery = "";
+  let searchTimer = null;
+  let isLoading   = false;
+
+  /* ── DOM refs ─────────────────────────────────────────────────────────── */
+  const grid       = document.getElementById("grid");
+  const dot        = document.getElementById("dot");
+  const statusTxt  = document.getElementById("statusTxt");
+  const lastUpd    = document.getElementById("lastUpd");
+  const searchInp  = document.getElementById("searchInput");
+  const refreshBtn = document.getElementById("refreshBtn");
+  const themeBtn   = document.getElementById("themeBtn");
+  const themeIco   = document.getElementById("themeIco");
+  const catsNav    = document.getElementById("catsNav");
+
+  /* ── Utils ────────────────────────────────────────────────────────────── */
+  function esc(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+  function relTime(iso){
+    if(!iso) return "";
+    const diff = (Date.now()-new Date(iso))/1000;
+    if(diff < 60)   return "À l'instant";
+    if(diff < 3600) return `il y a ${Math.floor(diff/60)} min`;
+    if(diff < 86400)return `il y a ${Math.floor(diff/3600)} h`;
+    return new Date(iso).toLocaleDateString("fr-FR",{day:"2-digit",month:"short"});
+  }
+
+  /* ── Build category nav ───────────────────────────────────────────────── */
+  function buildNav(counts){
+    const all = Object.values(counts).reduce((a,b)=>a+b,0);
+    let html = `<button class="cat on" data-cat="Tout">🗂️ Tout<span class="cat-n" id="cnt-Tout">${all}</span></button>`;
+    for(const cat of CATEGORIES){
+      const id = "cnt-" + cat.replace(/ /g,"-").replace(/&/g,"A");
+      html += `<button class="cat" data-cat="${esc(cat)}">${ICONS[cat]||""} ${esc(cat)}<span class="cat-n" id="${id}">${counts[cat]||0}</span></button>`;
+    }
+    catsNav.innerHTML = html;
+    catsNav.querySelectorAll(".cat").forEach(btn=>{
+      btn.addEventListener("click",()=>{
+        catsNav.querySelectorAll(".cat").forEach(b=>b.classList.remove("on"));
+        btn.classList.add("on");
+        currentCat = btn.dataset.cat;
+        filterAndRender();
+      });
+    });
+  }
+
+  /* ── Filter & Render ──────────────────────────────────────────────────── */
+  function getFiltered(){
+    let arts = allArticles;
+    if(currentCat !== "Tout") arts = arts.filter(a=>a.category===currentCat);
+    if(currentLang !== "all") arts = arts.filter(a=>a.lang===currentLang);
+    if(searchQuery){
+      const q = searchQuery.toLowerCase();
+      arts = arts.filter(a=>a.title.toLowerCase().includes(q)||(a.summary||"").toLowerCase().includes(q));
+    }
+    return arts;
+  }
+
+  function cardHTML(a, i, showCatBadge){
+    const delay = Math.min(i,30)*20;
+    return `<div class="card" style="animation-delay:${delay}ms">
+      ${a.image ? `<div class="card-img"><img src="${esc(a.image)}" loading="lazy" onerror="this.closest('.card-img').style.display='none'" alt="">
+        ${showCatBadge?`<span class="cat-badge">${ICONS[a.category]||""} ${esc(a.category)}</span>`:""}
+      </div>` : ""}
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="src">${esc(a.source)}</span>
+          <span class="flag">${a.flag||""}</span>
+          <span class="dtime">${relTime(a.date)}</span>
+        </div>
+        <div class="card-title">${esc(a.title)}</div>
+        ${a.summary?`<div class="card-sum">${esc(a.summary)}</div>`:""}
+        <div class="card-foot">
+          <a href="${esc(a.link)}" target="_blank" rel="noopener" class="read-btn">
+            Lire l'article
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function filterAndRender(){
+    const arts = getFiltered();
+    if(!arts.length){
+      grid.innerHTML = `<div class="empty"><div class="ico">🔍</div><h3>Aucun article trouvé</h3><p>Essayez un autre filtre ou terme de recherche.</p></div>`;
+      return;
+    }
+
+    const isTout = currentCat === "Tout";
+
+    if(isTout){
+      // Mode "Tout" : sépare FR (principales) et EN (section Autres)
+      const fr = arts.filter(a=>a.lang==="fr");
+      const en = arts.filter(a=>a.lang!=="fr");
+      let html = fr.map((a,i)=>cardHTML(a,i,true)).join("");
+      if(en.length && currentLang==="all"){
+        html += `<div class="section-label">📰 Articles internationaux (${en.length})</div>`;
+        html += en.map((a,i)=>cardHTML(a,i,true)).join("");
+      }
+      grid.innerHTML = html;
+    } else {
+      // Mode catégorie : FR d'abord, puis EN
+      const fr = arts.filter(a=>a.lang==="fr");
+      const en = arts.filter(a=>a.lang!=="fr");
+      let html = fr.map((a,i)=>cardHTML(a,i,false)).join("");
+      if(en.length && currentLang==="all"){
+        html += `<div class="section-label">🌐 En anglais (${en.length})</div>`;
+        html += en.map((a,i)=>cardHTML(a,i,false)).join("");
+      }
+      grid.innerHTML = html;
+    }
+  }
+
+  /* ── Load data ────────────────────────────────────────────────────────── */
+  async function load(force){
+    if(isLoading) return;
+    isLoading = true;
+    dot.className = "dot ld";
+    statusTxt.textContent = "Chargement des flux RSS…";
+    refreshBtn.classList.add("spin");
+
+    try{
+      const url = force ? `./articles.json?_t=${Date.now()}` : "./articles.json";
+      const resp = await fetch(url);
+      if(!resp.ok) throw new Error("HTTP " + resp.status);
+      const data = await resp.json();
+
+      allArticles = data.articles || [];
+
+      // Compte par catégorie
+      const counts = {};
+      for(const cat of CATEGORIES) counts[cat] = 0;
+      for(const a of allArticles) { counts[a.category] = (counts[a.category]||0)+1; }
+
+      buildNav(counts);
+
+      const ts = data.generated_at ? new Date(data.generated_at).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}) : "";
+      lastUpd.textContent = ts ? `Généré à ${ts} UTC` : "";
+
+      setStatus("ok", `${allArticles.length} articles chargés`);
+      filterAndRender();
+    } catch(e){
+      setStatus("err", "Erreur de chargement — vérifiez que le serveur est démarré");
+      grid.innerHTML = `<div class="empty"><div class="ico">⚠️</div><h3>Impossible de charger les articles</h3><p>${esc(String(e))}</p></div>`;
+    } finally {
+      isLoading = false;
+      refreshBtn.classList.remove("spin");
+    }
+  }
+
+  function setStatus(type, msg){
+    dot.className = "dot" + (type==="err"?" er":"");
+    statusTxt.textContent = msg;
+  }
+
+  /* ── Events ───────────────────────────────────────────────────────────── */
+  document.querySelectorAll(".lng").forEach(b=>{
+    b.addEventListener("click",()=>{
+      document.querySelectorAll(".lng").forEach(x=>x.classList.remove("on"));
+      b.classList.add("on");
+      currentLang = b.dataset.lang;
+      filterAndRender();
+    });
+  });
+
+  searchInp.addEventListener("input",e=>{
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(()=>{ searchQuery = e.target.value.trim(); filterAndRender(); }, 300);
+  });
+
+  refreshBtn.addEventListener("click",()=>load(true));
+
+  themeBtn.addEventListener("click",()=>{
+    const dark = document.documentElement.dataset.theme==="dark";
+    document.documentElement.dataset.theme = dark?"light":"dark";
+    themeIco.textContent = dark?"🌙":"☀️";
+  });
+
+  /* ── Init ─────────────────────────────────────────────────────────────── */
+  buildNav({});  // nav vide pendant le chargement
+  load(false);
+})();
+</script>
+</body>
+</html>

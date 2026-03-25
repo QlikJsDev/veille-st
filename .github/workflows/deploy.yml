@@ -1,0 +1,51 @@
+name: Génération & Déploiement GitHub Pages
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # toutes les 2 heures
+  push:
+    branches: [main]
+  workflow_dispatch:          # déclenchement manuel possible
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: pip install feedparser requests
+
+      - name: Générer articles.json
+        run: python generate_static.py
+
+      - name: Upload artifact GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Déployer sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
