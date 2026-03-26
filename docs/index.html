@@ -133,7 +133,15 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
   font-size:13px;color:var(--text2);line-height:1.55;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1
 }
-.card-foot{margin-top:auto;padding-top:12px;border-top:1px solid var(--border)}
+.card-foot{margin-top:auto;padding-top:12px;border-top:1px solid var(--border);display:flex;gap:8px;align-items:center}
+.mark-btn{
+  display:inline-flex;align-items:center;gap:5px;flex-shrink:0;
+  background:var(--bg3);border:1px solid var(--border);border-radius:8px;
+  padding:7px 11px;font-size:12px;font-weight:600;color:var(--text2);
+  cursor:pointer;transition:all var(--trans);
+}
+.mark-btn:hover{border-color:var(--green);color:var(--green)}
+.mark-btn.unmark:hover{border-color:var(--red);color:var(--red)}
 .read-btn{
   display:inline-flex;align-items:center;gap:6px;
   background:linear-gradient(135deg,var(--accent),var(--accent2));
@@ -265,6 +273,11 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
   let searchQuery = "";
   let searchTimer = null;
   let isLoading   = false;
+  let lastCounts  = {};
+
+  /* ── Read state (localStorage) ───────────────────────────────────────── */
+  let readSet = new Set(JSON.parse(localStorage.getItem("vst_read")||"[]"));
+  function saveRead(){ localStorage.setItem("vst_read", JSON.stringify([...readSet])); }
 
   /* ── DOM refs ─────────────────────────────────────────────────────────── */
   const grid       = document.getElementById("grid");
@@ -293,11 +306,13 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
   /* ── Build category nav ───────────────────────────────────────────────── */
   function buildNav(counts){
     const all = Object.values(counts).reduce((a,b)=>a+b,0);
-    let html = `<button class="cat on" data-cat="Tout">🗂️ Tout<span class="cat-n" id="cnt-Tout">${all}</span></button>`;
+    const readCount = allArticles.filter(a=>readSet.has(a.link)).length;
+    let html = `<button class="cat${currentCat==="Tout"?" on":""}" data-cat="Tout">🗂️ Tout<span class="cat-n" id="cnt-Tout">${all}</span></button>`;
     for(const cat of CATEGORIES){
       const id = "cnt-" + cat.replace(/ /g,"-").replace(/&/g,"A");
-      html += `<button class="cat" data-cat="${esc(cat)}">${ICONS[cat]||""} ${esc(cat)}<span class="cat-n" id="${id}">${counts[cat]||0}</span></button>`;
+      html += `<button class="cat${currentCat===cat?" on":""}" data-cat="${esc(cat)}">${ICONS[cat]||""} ${esc(cat)}<span class="cat-n" id="${id}">${counts[cat]||0}</span></button>`;
     }
+    html += `<button class="cat${currentCat==="Lus"?" on":""}" data-cat="Lus">📖 Lus<span class="cat-n" id="cnt-Lus">${readCount}</span></button>`;
     catsNav.innerHTML = html;
     catsNav.querySelectorAll(".cat").forEach(btn=>{
       btn.addEventListener("click",()=>{
@@ -311,7 +326,16 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
 
   /* ── Filter & Render ──────────────────────────────────────────────────── */
   function getFiltered(){
-    let arts = allArticles;
+    if(currentCat === "Lus"){
+      let arts = allArticles.filter(a=>readSet.has(a.link));
+      if(currentLang !== "all") arts = arts.filter(a=>a.lang===currentLang);
+      if(searchQuery){
+        const q = searchQuery.toLowerCase();
+        arts = arts.filter(a=>a.title.toLowerCase().includes(q)||(a.summary||"").toLowerCase().includes(q));
+      }
+      return arts;
+    }
+    let arts = allArticles.filter(a=>!readSet.has(a.link));
     if(currentCat !== "Tout") arts = arts.filter(a=>a.category===currentCat);
     if(currentLang !== "all") arts = arts.filter(a=>a.lang===currentLang);
     if(searchQuery){
@@ -354,6 +378,9 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
               <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
             </svg>
           </a>
+          ${readSet.has(a.link)
+            ? `<button class="mark-btn unmark" data-url="${esc(a.link)}" title="Retirer des lus">✓ Lu</button>`
+            : `<button class="mark-btn" data-url="${esc(a.link)}" title="Marquer comme lu">📖</button>`}
         </div>
       </div>
     </div>`;
@@ -367,6 +394,12 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
     }
 
     const isTout = currentCat === "Tout";
+    const isLus  = currentCat === "Lus";
+
+    if(isLus){
+      grid.innerHTML = arts.map((a,i)=>cardHTML(a,i,true)).join("");
+      return;
+    }
 
     if(isTout){
       // Mode "Tout" : sépare FR (principales) et EN (section Autres)
@@ -407,11 +440,13 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
 
       allArticles = data.articles || [];
 
-      // Compte par catégorie
+      // Compte par catégorie (hors articles lus)
       const counts = {};
       for(const cat of CATEGORIES) counts[cat] = 0;
-      for(const a of allArticles) { counts[a.category] = (counts[a.category]||0)+1; }
-
+      for(const a of allArticles) {
+        if(!readSet.has(a.link)) counts[a.category] = (counts[a.category]||0)+1;
+      }
+      lastCounts = counts;
       buildNav(counts);
 
       const ts = data.generated_at ? new Date(data.generated_at).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}) : "";
@@ -560,6 +595,26 @@ main{max-width:1500px;margin:0 auto;padding:22px 20px}
   document.addEventListener("click", e=>{
     if(!costsPanel.contains(e.target) && e.target !== costsBtn)
       costsPanel.style.display = "none";
+  });
+
+  /* ── Marquer comme lu ─────────────────────────────────────────────────── */
+  grid.addEventListener("click", e=>{
+    const btn = e.target.closest(".mark-btn");
+    if(!btn) return;
+    e.preventDefault();
+    const url = btn.dataset.url;
+    if(readSet.has(url)) readSet.delete(url);
+    else readSet.add(url);
+    saveRead();
+    // Recalcule les compteurs
+    const counts = {};
+    for(const cat of CATEGORIES) counts[cat] = 0;
+    for(const a of allArticles) {
+      if(!readSet.has(a.link)) counts[a.category] = (counts[a.category]||0)+1;
+    }
+    lastCounts = counts;
+    buildNav(counts);
+    filterAndRender();
   });
 
   /* ── Init ─────────────────────────────────────────────────────────────── */
