@@ -1354,6 +1354,81 @@
       "score": 6,
       "reason": "Insulin pills innovation importante mais pas de date commercialisation, prix ou réglementation Belgique/UE spécifiés.",
       "scored_at": "2026-03-26T05:29:35.586606+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260325005924.htm": {
+      "score": 2,
+      "reason": "Paléontologie intéressante mais aucun impact technologique, réglementaire ou marché.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://github.com/lightfeed/extractor": {
+      "score": 7,
+      "reason": "Outil LLM concret pour web scraping TypeScript; solution à tester pour pipelines données.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.marketwatch.com/story/mortgage-rates-near-6-month-high-but-heres-how-much-worse-it-would-be-without-freddie-and-fannies-bond-buying-bd7a9a9e?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Données US sur hypothèques, non pertinent pour Belgique/UE; contexte géopolitique vague.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.marketwatch.com/story/heres-what-airlines-are-offering-passengers-trapped-in-long-tsa-lines-and-why-travelers-wont-get-much-else-0cb139ae?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Fait divers aéroportuaire sans impact technologique ni réglementaire.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://hackaday.com/2026/03/25/demonstrating-gray-codes-with-industrial-display/": {
+      "score": 2,
+      "reason": "Résumé flou et incomplet, aucun contexte technique actionnable.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260325005916.htm": {
+      "score": 8,
+      "reason": "Rupture technologique en spectrométrie de masse; impact direct sur drug discovery et biotech.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260325005910.htm": {
+      "score": 3,
+      "reason": "Données sanitaires US intéressantes mais sans lien tech, réglementaire ou marché.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/": {
+      "score": 3,
+      "reason": "Critique académique sans détails; impact limité sur décisions tech ou réglementation.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/": {
+      "score": 6,
+      "reason": "Tips shell Unix pratiques; utilité modérée pour développeurs mais pas de nouveauté majeure.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://calpaterson.com/disregard.html": {
+      "score": 7,
+      "reason": "Attaque de prompt injection ('Disregard That'); vulnérabilité IA pertinente pour sécurité LLM.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://whoami.wiki/blog/personal-encyclopedias": {
+      "score": 4,
+      "reason": "Concept personnel sans détails concrets; intérêt éditorial limité pour veille stratégique.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://thediplomat.com/2026/03/the-economic-consequences-of-the-iran-war-reverberate-in-south-korea/": {
+      "score": 6,
+      "reason": "Impact géopolitique marché Corée du Sud (bourse, supply chains) mais pas Belgique/UE.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 2,
+      "reason": "Paléontologie sans impact technologique ou marché.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://spectrum.ieee.org/data-center-dc": {
+      "score": 8,
+      "reason": "Transition infrastructure datacenter AC→DC; impact direct sur IA, refroidissement, architecture énergétique.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
+    },
+    "https://www.eetimes.com/power-module-packaging-evolves-as-materials-and-supply-chains-redefine-power-electronics/": {
+      "score": 6,
+      "reason": "Évolution packaging power modules; tendance électrification mais peu de détails chiffrés ou dates.",
+      "scored_at": "2026-03-26T08:47:20.552276+00:00"
     }
   }
 }
