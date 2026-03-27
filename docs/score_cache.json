@@ -2504,6 +2504,81 @@
       "score": 2,
       "reason": "Géopolitique militaire sans implications technologiques ou réglementaires directes.",
       "scored_at": "2026-03-27T05:40:31.310451+00:00"
+    },
+    "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/": {
+      "score": 7,
+      "reason": "Déblocage juridique pour Anthropic levant restriction commerciale, impact direct sur accès aux services IA Claude.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/": {
+      "score": 1,
+      "reason": "Article culturel/touristique sans lien technologique ni impact stratégique.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://hackaday.com/2026/03/26/comparing-the-power-usage-of-12-vdc-and-240-vac-kettles/": {
+      "score": 6,
+      "reason": "Comparaison technique utile pour systèmes décentralisés (12VDC vs 240VAC) mais audience niche.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/": {
+      "score": 8,
+      "reason": "Nouveau pattern : agent IA léger (~1MB) sur VPS bon marché, modèle déploiement alternatif à tester.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai": {
+      "score": 8,
+      "reason": "Cas d'usage concret : réécriture JSONata avec IA = $500k/an d'économies, décision technologique immédiate.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.theverge.com/gadgets/901792/best-robot-vacuum-mops-amazon-big-spring-sale-2026-deals": {
+      "score": 3,
+      "reason": "Annonce promotionnelle de rabais Amazon, pas de donnée marché ni innovation produit significative.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.theverge.com/tech/902050/mac-pro-discontinued": {
+      "score": 5,
+      "reason": "Discontinuation produit Apple mais sans impact clair sur décisions tech ou marché (niche professionnelle).",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.marketwatch.com/story/this-map-shows-a-crude-ticking-time-bomb-that-hits-much-of-the-worlds-oil-supply-in-april-2c058db6?mod=mw_rss_topstories": {
+      "score": 7,
+      "reason": "Risque géopolitique sur prix pétrole avec impact daté (avril), pertinent pour anticipation marchés énergétiques.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.eetimes.com/arm-launches-first-silicon-cpu-targets-data-center-agentic-ai-workloads/": {
+      "score": 9,
+      "reason": "Arm lance premier CPU silicium pour IA agentic datacenter, rupture architecturale x86 vs ARM en production.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.marketwatch.com/story/why-software-stocks-proved-resilient-on-a-dismal-day-for-tech-cbdc4bbb?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Observation boursière générale sans donnée actionnable ni tendance marché spécifique.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/03/elon-musk-loses-big-in-court-x-boycott-perfectly-legal/": {
+      "score": 2,
+      "reason": "Procès X/Musk sans impact réglementaire ou technologique concret.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history": {
+      "score": 8,
+      "reason": "Nouvelle fonctionnalité interopérabilité IA (import mémoire Gemini) suite mise à jour Claude, test immédiat.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.wired.com/story/us-iran-war-nuclear-extraction-ground-operation/": {
+      "score": 2,
+      "reason": "Analyse géopolitique/militaire sans lien tech ou impact business direct.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://trust.anthropic.com": {
+      "score": 6,
+      "reason": "Changement conformité Anthropic (sous-traitants) pertinent pour client enterprise mais sans détails d'impact.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
+    },
+    "https://www.newscientist.com/article/mg26935880-300-rare-andean-bear-captured-in-stunning-photograph/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 1,
+      "reason": "Photographie nature, sans aucun lien technologique ou stratégique.",
+      "scored_at": "2026-03-27T08:44:29.132540+00:00"
     }
   }
 }
