@@ -3854,6 +3854,101 @@
       "score": 6,
       "reason": "Alliance géopolitique tech Japon-Corée-USA mentionnée sans détails concrets sur impacts produits/standards.",
       "scored_at": "2026-03-28T05:19:26.020861+00:00"
+    },
+    "https://hackaday.com/2026/03/27/using-firewire-on-a-raspberry-pi-before-linux-drops-support/": {
+      "score": 5,
+      "reason": "FireWire obsolète; intérêt historique pour Raspberry Pi mais sans impact décisionnel concret.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260327211149.htm": {
+      "score": 2,
+      "reason": "Fait divers scientifique intéressant mais sans lien technologie, marché ou réglementation.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://jai.scs.stanford.edu/": {
+      "score": 1,
+      "reason": "Lien mort et catégorie incorrecte; contenu illisible.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.marketwatch.com/story/is-trump-losing-his-grip-on-the-market-sustained-stock-declines-suggest-the-presidents-influence-has-waned-02bc5938?mod=mw_rss_topstories": {
+      "score": 3,
+      "reason": "Opinion politique sans données chiffrées exploitables pour décisions d'orientation.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.marketwatch.com/story/he-didnt-seem-very-alert-our-new-cpa-said-we-owe-a-443-tax-refund-but-were-actually-due-637-do-we-fire-him-82590675?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Conseil fiscal personnel sans pertinence stratégique ni technologique.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.marketwatch.com/story/my-brother-says-lawyers-can-get-him-into-a-medicaid-nursing-home-despite-his-many-assets-is-this-a-scam-614c2f85?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Conseil juridique personnel sans lien tech ou marché.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://hackaday.com/2026/03/27/water-cooling-the-macbook-neo-laptop-to-double-gaming-performance/": {
+      "score": 4,
+      "reason": "Modding anecdotique MacBook; pas de décision technologique ou produit à tester.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://twitchroulette.net/": {
+      "score": 2,
+      "reason": "Produit de niche Twitch sans impact marché ou orientation tech stratégique.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.theverge.com/tech/902828/sony-sd-cfexpress-memory-card-shortage": {
+      "score": 7,
+      "reason": "Rupture d'approvisionnement mémoire Sony (CFexpress/SD) avec date concrète; impact prix et sourcing.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.marketwatch.com/story/my-paypal-account-received-money-from-the-philippines-with-two-phone-numbers-listed-i-called-them-big-mistake-5cd4cd47?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Fait divers fraude personnel sans pertinence stratégique.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/": {
+      "score": 2,
+      "reason": "Curiosité historique gaming sans apport technologique ou décisionnel.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/": {
+      "score": 6,
+      "reason": "Mise à jour OpenAI plugins pour Codex; nouvelles fonctions mais sans détail actionnable.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines/": {
+      "score": 7,
+      "reason": "Réglementation NeurIPS/géopolitique IA; impact concret sur stratégie R&D et conformité.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.marketwatch.com/story/more-than-half-of-the-s-p-500-industry-sectors-are-in-correction-territory-how-much-longer-until-the-index-itself-succumbs-d649a87a?mod=mw_rss_topstories": {
+      "score": 6,
+      "reason": "Données marché S&P 500 avec tendance correction; pertinent pour portefeuille tech mais général.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/": {
+      "score": 1,
+      "reason": "Fait divers santé publique sans lien technologie.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/": {
+      "score": 1,
+      "reason": "Fait divers judiciaire sans pertinence tech ou marché.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/": {
+      "score": 8,
+      "reason": "Breach cybersécurité FBI (geopolitique/threat intel); impact direct sur sécurité infrastruture critique.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://cursor.com/blog/real-time-rl-for-composer": {
+      "score": 6,
+      "reason": "Mise à jour Cursor Composer avec RL; utile pour optimisation IDE mais détails limités.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
+    },
+    "https://hn-trustspark.com/": {
+      "score": 2,
+      "reason": "Outil UI mineur Hacker News; sans impact décisionnel ou marché.",
+      "scored_at": "2026-03-28T08:33:07.493909+00:00"
     }
   }
 }
