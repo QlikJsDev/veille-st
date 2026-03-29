@@ -4534,6 +4534,156 @@
       "score": 7,
       "reason": "Risque IA sycophante pertinent pour orientation produits IA et implications métier mais sans données chiffrées.",
       "scored_at": "2026-03-28T20:24:14.556318+00:00"
+    },
+    "https://www.iris-france.org/chine-inde-la-confrontation-de-deux-geants/": {
+      "score": 2,
+      "reason": "Géopolitique générale sans impact technologique ou marché concret.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/l-armee-allemande-envisage-d-utiliser-des-outils-d-ia-pour-accelerer-la-prise-de-decision_191564?xtor=RSS-12": {
+      "score": 5,
+      "reason": "IA militaire intéressant mais peu de détails concrets sur outils/impact marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.sciencesetavenir.fr/espace/systeme-solaire/make-pluto-great-again-reclasser-pluton-en-planete-la-nouvelle-lubie-des-magas_191557?xtor=RSS-9": {
+      "score": 1,
+      "reason": "Débat politique/scientifique sans pertinence technologique ni marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/ubl-et-cii-des-formats-structures-au-coeur-du-dispositif/460997": {
+      "score": 7,
+      "reason": "Formats structurés UBL/CII pour facturation électronique, changement document→donnée actionnable.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/facturation-electronique-pour-bien-choisir-sa-plateforme-il-faut-dabord-cartographier-ses-cas-dusage/460773": {
+      "score": 7,
+      "reason": "Guidage choix plateforme facturation électronique avec comparatifs pratiques.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://lejournal.cnrs.fr/articles/quand-les-lobbys-protegent-linteret-general": {
+      "score": 2,
+      "reason": "Analyse lobbying générale sans données chiffrées ni impact tech/marché spécifique.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.pourlascience.fr/sd/biologie/pour-la-science-n582-28923.php": {
+      "score": 1,
+      "reason": "Résumé vague sur collagène sans information concrète ou actionnable.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/reception-obligatoire-definition-et-enjeux/460976": {
+      "score": 9,
+      "reason": "Obligation réception e-invoicing 1er sept 2026 pour TVA, impact direct Belgique/UE daté.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/factur-x-definition-et-enjeux/460973": {
+      "score": 8,
+      "reason": "Format Factur-X hybride PDF+XML expliqué, standard concret à implémenter.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/calendrier-de-la-facturation-electronique-toutes-les-echeances-2026-2027/460963": {
+      "score": 9,
+      "reason": "Calendrier facturation électronique 2026-2027 avec échéances précises et obligations légales.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/e-invoicing-vs-e-reporting-quelles-differences-concretes/460960": {
+      "score": 8,
+      "reason": "Distinction e-invoicing vs e-reporting essentielle pour conformité 2026, impact opérationnel direct.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/facturation-electronique-definition-fonctionnement-et-obligations/460957": {
+      "score": 9,
+      "reason": "Définition et obligations facturation électronique obligatoire 2026, transformation structurelle confirmée.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.frenchweb.fr/facturation-electronique-obligatoire-en-2026-ce-que-dit-la-loi/460954": {
+      "score": 9,
+      "reason": "Loi facturation électronique obligatoire 2026, tous TVA concernés, changement métier daté.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.iris-france.org/guerre-diran-quelle-est-la-strategie-de-teheran/": {
+      "score": 1,
+      "reason": "Géopolitique Iran sans lien technologie ou marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.bmj.com/content/387/bmj-2024-082194": {
+      "score": 1,
+      "reason": "Étude médicale (Alzheimer) sans pertinence tech ni marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ": {
+      "score": 6,
+      "reason": "Mandatage panneaux solaires Corée du Sud intéressant mais peu de détails impact prix/marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.cam.ac.uk/research/news/new-computer-chip-material-inspired-by-the-human-brain-could-slash-ai-energy-use": {
+      "score": 8,
+      "reason": "Matériau puce bio-inspiré réduisant énergie IA, rupture potentielle consommation semi-conducteurs.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://repo.autonoma.ca/treetrek": {
+      "score": 1,
+      "reason": "Outil Git sans application business ou impact marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://hackaday.com/2026/03/28/playful-space-dice-kit-shows-off-clever-design/": {
+      "score": 2,
+      "reason": "Kit synth éducatif, gadget hardware sans pertinence stratégique.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html": {
+      "score": 4,
+      "reason": "Emballage papier sans adhésif intéressant mais pas impact marché/prix belge.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://blog.howardjohn.info/posts/go-mod-version/": {
+      "score": 3,
+      "reason": "Débat technique Go language interne sans décision stratégique actionnable.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms": {
+      "score": 2,
+      "reason": "Fait divers secteur sanitaire sans lien tech/marché.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://inpharmd.com/jobs/senior-ruby-on-rails-engineer": {
+      "score": 1,
+      "reason": "Offre d'emploi, publicité déguisée non pertinente.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/": {
+      "score": 4,
+      "reason": "Rendu CSS en 3D amusant mais gadget sans application business.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://hackaday.com/2026/03/28/apples-most-repairable-laptop-is-thanks-to-right-to-repair/": {
+      "score": 6,
+      "reason": "Right-to-repair Apple affecte stratégie réparation/coût, tendance intéressante mais détails limités.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://lzon.ca/posts/other/thoughts-ai-era/": {
+      "score": 4,
+      "reason": "Article généraliste sur l'ère IA sans données chiffrées, produits concrets ou impacts décisionnels clairs.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://twitter.com/BoWang87/status/2037648937453232504": {
+      "score": 7,
+      "reason": "Résolution de problème Knuth par Claude démontre capacité IA avancée; pertinent pour évaluer limites/possibilités des LLM actuels.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model": {
+      "score": 6,
+      "reason": "Mise à jour produit Suno (v5.5) avec nouvelles fonctionnalités, mais détails insuffisants pour décision d'adoption immédiate.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://github.com/rajko-horvat/OpenCiv1": {
+      "score": 2,
+      "reason": "Projet open-source hors-sujet (jeu rétro); aucune pertinence pour veille technologique stratégique ou décisions.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation": {
+      "score": 5,
+      "reason": "Nouvelle réglementation ICAO/aviation intéressante mais impact limité pour stratégie tech/business général.",
+      "scored_at": "2026-03-29T01:57:08.781258+00:00"
     }
   }
 }
