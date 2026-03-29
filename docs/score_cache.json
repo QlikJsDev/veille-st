@@ -4684,6 +4684,56 @@
       "score": 5,
       "reason": "Nouvelle réglementation ICAO/aviation intéressante mais impact limité pour stratégie tech/business général.",
       "scored_at": "2026-03-29T01:57:08.781258+00:00"
+    },
+    "https://www.iris-france.org/the-debate-surrounding-kim-ju-ae-what-matters-isnt-the-successor-but-the-signal/": {
+      "score": 2,
+      "reason": "Géopolitique Nord-Corée sans lien tech/marché, non pertinent pour veille stratégique.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://korben.info/plus-de-1-000-environnements-cloud-infectes-apres-une-attaque-sur-le-scanner-trivy.html": {
+      "score": 9,
+      "reason": "Attaque critique sur Trivy (scanner open source) infectant 1000+ environnements cloud : rupture sécurité DevOps immédiate à tester et intégrer dans la stratégie de sécurité.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://korben.info/intel-ameliore-les-performances-de-ses-gpu-arc-dans-les-jeux-sous-linux.html": {
+      "score": 7,
+      "reason": "Amélioration GPU Intel Arc sous Linux via Mesa 26.1 : mise à jour significative pour évaluer l'adoption des GPU Arc en remplacement NVIDIA/AMD.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more": {
+      "score": 4,
+      "reason": "Titre prometteur mais résumé réduit à un lien Hacker News sans contenu actionnable sur l'optimisation IA.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://hackaday.com/2026/03/29/soviet-cds-and-cd-players-existed-and-they-were-strange/": {
+      "score": 1,
+      "reason": "Historique technologique soviétique sans pertinence pour décisions actuelles ou stratégie tech.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://www.rac.co.uk/drive/electric-cars/choosing/road-to-electric/": {
+      "score": 6,
+      "reason": "Données électrification Royaume-Uni utiles mais géographie hors Belgique/UE cible; valeur limitée sans chiffres belges.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://hackaday.com/2026/03/28/play-a-wav-instead-of-typing-line-after-line-into-vintage-microcomputer/": {
+      "score": 2,
+      "reason": "Hobby rétro-informatique (Rockwell AIM 65) sans application stratégique ou marché actuel.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://hackaday.com/2026/03/28/watch-electricity-slosh-visualizing-impedance-matching/": {
+      "score": 3,
+      "reason": "Contenu pédagogique sur transmission lines : intéressant académiquement mais sans cas d'usage industriel nouveau.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://attie.ai/login": {
+      "score": 1,
+      "reason": "URL de login sans contenu; impossible d'évaluer pertinence, probable spam ou contenu incomplet.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
+    },
+    "https://www.androidauthority.com/android-sideload-carry-over-3652845/": {
+      "score": 8,
+      "reason": "Paramètres sideload Android persistant sur nouveaux appareils : impact réglementaire DMA/App Stores à intégrer dans stratégie distribution mobile.",
+      "scored_at": "2026-03-29T08:34:30.097442+00:00"
     }
   }
 }
