@@ -5529,6 +5529,31 @@
       "score": 6,
       "reason": "Amélioration GPS par laser, innovation intéressante mais sans données marché ou application concrète urgente.",
       "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260329222930.htm": {
+      "score": 2,
+      "reason": "Volcanologie sans impact technologique, réglementaire ou marché actionnable.",
+      "scored_at": "2026-03-30T05:56:40.939898+00:00"
+    },
+    "https://hackaday.com/2026/03/29/training-a-transformer-with-1970s-era-technology/": {
+      "score": 3,
+      "reason": "Critique générale des LLM sans nouveauté concrète, données ou produit à tester.",
+      "scored_at": "2026-03-30T05:56:40.939898+00:00"
+    },
+    "https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/": {
+      "score": 6,
+      "reason": "Limitation technique M4/M5 pertinente pour décision d'équipement, mais sujet spécialisé et limité.",
+      "scored_at": "2026-03-30T05:56:40.939898+00:00"
+    },
+    "https://thediplomat.com/2026/03/an-upgraded-atiga-and-the-impact-of-the-collapse-of-thailand-plus-one/": {
+      "score": 1,
+      "reason": "Géopolitique vague sans impact technologique ou marché belge/UE clair.",
+      "scored_at": "2026-03-30T05:56:40.939898+00:00"
+    },
+    "https://blog.michaelwiebe.com/p/moretti-replication-published-in": {
+      "score": 1,
+      "reason": "Lien académique sans contexte, contenu insuffisant pour évaluation.",
+      "scored_at": "2026-03-30T05:56:40.939898+00:00"
     }
   }
 }
