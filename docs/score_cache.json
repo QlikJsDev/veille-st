@@ -5464,6 +5464,71 @@
       "score": 6,
       "reason": "Outil Google Sheets CRUD intéressant mais niche, utilité limitée hors contexte rapide.",
       "scored_at": "2026-03-29T20:26:09.434568+00:00"
+    },
+    "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html": {
+      "score": 4,
+      "reason": "Restriction juridique locale (Philadelphie) sur smart glasses sans impact technologique ou marché belge/UE.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit": {
+      "score": 6,
+      "reason": "Aperçu général de l'IA en musique mais sans données chiffrées, benchmarks ou nouveaux outils concrets à tester.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.marketwatch.com/story/u-s-stock-futures-sink-oil-prices-surge-as-iran-war-shows-no-signs-of-letting-up-5c463163?mod=mw_rss_topstories": {
+      "score": 5,
+      "reason": "Analyse économique générale sans données précises sur prix énergie/marché belge ou impact Belgique/UE spécifique.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.health.harvard.edu/blog/heres-something-unexpected-sunbathers-live-longer-201606069738": {
+      "score": 1,
+      "reason": "Fait divers santé (sun exposure) sans lien technologique ou impact business.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://hackaday.com/2026/03/29/hackaday-links-march-29-2026/": {
+      "score": 2,
+      "reason": "Titre vague, résumé incomplet, aucun contenu concret identifiable.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://github.com/dreddnafious/thereisnospoon": {
+      "score": 7,
+      "reason": "Guide ML pratique pour ingénieurs avec repo GitHub, utile pour orientation technologique et apprentissage IA.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/": {
+      "score": 7,
+      "reason": "Analyse pertinente sur agents IA et logiciels libres, impact potentiel sur décisions technologiques futures.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://github.com/anthropics/claude-code/issues/40710": {
+      "score": 9,
+      "reason": "Bug critique Claude Code affectant développeurs immédiatement, décision d'adoption/éviction du tool impératif.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds": {
+      "score": 8,
+      "reason": "Nouveau produit Attie (IA Bluesky/Claude) à tester pour customisation feeds, utilise Claude d'Anthropic.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://crazierl.org/demo/": {
+      "score": 3,
+      "reason": "OS hobby experimental sur BEAM, intérêt académique faible, pas d'application business ou marché concret.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france": {
+      "score": 1,
+      "reason": "Panneaux routiers pédagogiques en France, aucun lien technologie, marché ou décision business.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/": {
+      "score": 8,
+      "reason": "Problème de sécurité/confidentialité ChatGPT/Cloudflare avec impact décision d'utilisation immédiat pour utilisateurs.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
+    },
+    "https://hackaday.com/2026/03/29/laser-ranging-makes-gps-satellites-more-accurate/": {
+      "score": 6,
+      "reason": "Amélioration GPS par laser, innovation intéressante mais sans données marché ou application concrète urgente.",
+      "scored_at": "2026-03-30T01:59:45.872353+00:00"
     }
   }
 }
