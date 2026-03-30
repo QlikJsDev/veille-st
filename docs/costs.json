@@ -374,6 +374,19 @@
       "price_input_per_m": 1.0,
       "price_output_per_m": 5.0,
       "timestamp": "2026-03-30T05:56:38.481940+00:00"
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "input_tokens": 7861,
+      "output_tokens": 2467,
+      "cost_usd": 0.0202,
+      "articles_scored": 417,
+      "articles_new": 78,
+      "articles_from_cache": 339,
+      "articles_kept": 131,
+      "price_input_per_m": 1.0,
+      "price_output_per_m": 5.0,
+      "timestamp": "2026-03-30T09:06:03.007317+00:00"
     }
   ]
 }
