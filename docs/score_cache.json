@@ -7254,6 +7254,81 @@
       "score": 8,
       "reason": "Ollama + MLX Apple Silicon = choix technologique majeur pour dev IA local.",
       "scored_at": "2026-03-31T16:52:48.992772+00:00"
+    },
+    "https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/": {
+      "score": 6,
+      "reason": "Tendance marché énergie intéressante mais article résumé incomplet sans données chiffrées ni impact Belgique.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.newscientist.com/article/2520542-new-fibre-optic-record-allows-50000000-movies-to-be-streamed-at-once/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 7,
+      "reason": "Amélioration infrastructure fibre optic concrète (10x capacité) avec impact potentiel sur décisions d'infrastructure.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.wired.com/review/aston-martin-valhalla/": {
+      "score": 2,
+      "reason": "Test produit luxe sans pertinence stratégique; focus sur expérience humaine non actionnable.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.eetimes.com/next-generation-led-drivers-for-exterior-lighting-in-the-sdv/": {
+      "score": 6,
+      "reason": "Composant électronique spécialisé SDV intéressant mais manque contexte prix/disponibilité/impact marché.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/chinas-economy-feels-the-iran-war-shock/": {
+      "score": 3,
+      "reason": "Géopolitique sans données économiques précises ni impact marché technologique quantifié.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.wired.com/story/legal-loopholes-leave-shipping-crews-stranded-in-the-strait-of-hormuz/": {
+      "score": 3,
+      "reason": "Fait divers géopolitique sans lien direct technologie ou marché.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/": {
+      "score": 4,
+      "reason": "Cyber-attaque tactique sans stratégie claire ni impact décisionnel pour orientation tech.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.eetimes.com/rohm-joins-toshiba-and-mitsubishi-to-create-a-power-chip-titan/": {
+      "score": 8,
+      "reason": "Fusion semi-conducteurs majeure (Rohm+Toshiba+Mitsubishi) affecte sourcing puces et stratégie fournisseurs.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/how-donald-trump-doubled-down-on-the-rhetorical-presidency-in-his-handling-of-china/": {
+      "score": 1,
+      "reason": "Analyse politique sans fondement technologique ou économique.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/": {
+      "score": 7,
+      "reason": "Révélation fonctionnalités Claude (mode caché, outils) pertinente pour décisions IA/LLM.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/iran-israel-us-wars-quiet-shock-on-indias-fertilizer-imports/": {
+      "score": 2,
+      "reason": "Impact géopolitique sur fertilisants sans données marché actionnable.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/breaking-down-the-belarus-north-korea-summit/": {
+      "score": 1,
+      "reason": "Géopolitique pure sans lien technologie ou marché.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/": {
+      "score": 8,
+      "reason": "Limitation usage Claude Code révèle contrainte produit critiques pour évaluation IA/LLM en production.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/indian-army-is-short-of-artillery-the-modern-battlefields-most-lethal-killer/": {
+      "score": 1,
+      "reason": "Stratégie militaire sans pertinence technologique ou marché.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
+    },
+    "https://thediplomat.com/2026/03/how-the-iran-war-is-disrupting-balochistans-economy/": {
+      "score": 2,
+      "reason": "Impact géopolitique régional sans données chiffrées marché technologique.",
+      "scored_at": "2026-03-31T20:38:12.304449+00:00"
     }
   }
 }
