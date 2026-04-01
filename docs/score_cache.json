@@ -7529,6 +7529,36 @@
       "score": 5,
       "reason": "Fork bomb accidentel avec Claude Code montre problème sécurité mais cas anecdotique.",
       "scored_at": "2026-04-01T02:04:25.068806+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260331001058.htm": {
+      "score": 6,
+      "reason": "Phonon laser intéressant scientifiquement mais sans application concrète identifiée ni horizon commercial clair pour décisions tech.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260331001056.htm": {
+      "score": 7,
+      "reason": "Perovskite photostriction offre potentiel pour nouveaux capteurs/matériaux, à monitorer pour applications hardware futures.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260331001054.htm": {
+      "score": 5,
+      "reason": "Avancée médicale pertinente mais hors scope veille tech/marché; pas d'impact réglementation Belgique/UE ou orientation technologique.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260330233401.htm": {
+      "score": 1,
+      "reason": "Fait divers sanitaire sans lien avec tech, orientation stratégique ou marché technologique.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/03/260330233357.htm": {
+      "score": 2,
+      "reason": "Étude santé générale sans pertinence pour décisions tech, produits ou réglementations.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
+    },
+    "https://www.nature.com/articles/d41586-026-00974-2": {
+      "score": 8,
+      "reason": "Révolution des labs autonomes : rupture d'orientation technologique majeure, nouvelles outils IA/robotique à tester, impact R&D significatif.",
+      "scored_at": "2026-04-01T05:52:41.333851+00:00"
     }
   }
 }
