@@ -7309,6 +7309,86 @@
       "score": 2,
       "reason": "Index de sites indépendants sans données, proposition vague, pas d'impact décisionnel.",
       "scored_at": "2026-04-05T01:58:56.772949+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260404191033.htm": {
+      "score": 5,
+      "reason": "Impact climatique intéressant mais sans implication directe sur décisions technologiques ou réglementations Belgique/UE concrètes.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://hackaday.com/2026/04/04/exposing-a-radiation-hardened-2-4-ghz-wi-fi-receiver-to-500-kilograys/": {
+      "score": 6,
+      "reason": "Cas d'usage technique spécialisé (radiation-hardened) mais niche, sans application immédiate en décision d'orientation.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/": {
+      "score": 8,
+      "reason": "Réglementation eIDAS (UE) impactant l'authentification numérique en Belgique avec dépendance Apple/Google—décision technologique directe.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/04/tech-companies-are-trying-to-neuter-colorados-landmark-right-to-repair-law/": {
+      "score": 7,
+      "reason": "Right-to-repair affecte stratégie d'approvisionnement et réparation hardware; tendance réglementaire montante mais impact surtout USA.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://hackaday.com/2026/04/04/scrap-vintage-camera-goes-digital-with-scanner-parts/": {
+      "score": 3,
+      "reason": "Projet hobby sans pertinence pour orientation technologique ou marchés.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://static.laszlokorte.de/escher/": {
+      "score": 2,
+      "reason": "Démonstration WebGL/art sans application business ou décision technologique.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html": {
+      "score": 7,
+      "reason": "Prolifération des produits Copilot (Microsoft) montre fragmentation stratégique; utile pour évaluer intégration IA en entreprise.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.marketwatch.com/story/the-5-highest-paid-college-basketball-players-this-year-no-1-is-making-4-2-million-from-nil-963cbc7a?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Sports et rémunération d'athlètes sans lien technologie.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright": {
+      "score": 7,
+      "reason": "Deepfake audio et copyright—enjeu régulationnel croissant (droit d'auteur UE) affectant stratégie contenu/données.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.marketwatch.com/story/whats-an-e-shaped-economy-and-where-do-you-fit-in-it-a1192908?mod=mw_rss_topstories": {
+      "score": 3,
+      "reason": "Analyse économique générale sans chiffres précis ni impact technologique actionnable.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://hackaday.com/2026/04/04/open-graphics-card-powers-cyberpunk-laptop/": {
+      "score": 4,
+      "reason": "Projet matériel hobbyiste intéressant mais sans benchmark, prix ou décision d'achat justifiée.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f": {
+      "score": 5,
+      "reason": "Concept vague sur 'idea file' LLM sans détails concrets sur implémentation ou outils.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.marketwatch.com/story/private-credit-crisis-or-growing-pains-why-the-big-six-banks-are-a-safer-bet-ab4f5145?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Analyse bancaire US sans données chiffrées spécifiques ni impact Belgique.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.marketwatch.com/story/gas-tax-holidays-sound-tempting-at-4-a-gallon-too-bad-they-dont-actually-work-b20e2441?mod=mw_rss_topstories": {
+      "score": 2,
+      "reason": "Politique énergétique USA générique sans implication technologique ou marché belge/UE.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://jaso1024.com/mvidia/": {
+      "score": 6,
+      "reason": "Jeu éducatif GPU intéressant pour sensibilisation architecture mais pas décision d'outil professionnel.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
+    },
+    "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs": {
+      "score": 8,
+      "reason": "Driver Nvidia pour ARM Mac—décision technologique concrète affectant stratégie GPU et virtualisation sur Apple Silicon.",
+      "scored_at": "2026-04-05T05:42:48.868945+00:00"
     }
   }
 }
