@@ -1,70 +1,5 @@
 {
   "scores": {
-    "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html": {
-      "score": 4,
-      "reason": "Restriction juridique locale (Philadelphie) sur smart glasses sans impact technologique ou marché belge/UE.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit": {
-      "score": 6,
-      "reason": "Aperçu général de l'IA en musique mais sans données chiffrées, benchmarks ou nouveaux outils concrets à tester.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.marketwatch.com/story/u-s-stock-futures-sink-oil-prices-surge-as-iran-war-shows-no-signs-of-letting-up-5c463163?mod=mw_rss_topstories": {
-      "score": 5,
-      "reason": "Analyse économique générale sans données précises sur prix énergie/marché belge ou impact Belgique/UE spécifique.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.health.harvard.edu/blog/heres-something-unexpected-sunbathers-live-longer-201606069738": {
-      "score": 1,
-      "reason": "Fait divers santé (sun exposure) sans lien technologique ou impact business.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://hackaday.com/2026/03/29/hackaday-links-march-29-2026/": {
-      "score": 2,
-      "reason": "Titre vague, résumé incomplet, aucun contenu concret identifiable.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://github.com/dreddnafious/thereisnospoon": {
-      "score": 7,
-      "reason": "Guide ML pratique pour ingénieurs avec repo GitHub, utile pour orientation technologique et apprentissage IA.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/": {
-      "score": 7,
-      "reason": "Analyse pertinente sur agents IA et logiciels libres, impact potentiel sur décisions technologiques futures.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://github.com/anthropics/claude-code/issues/40710": {
-      "score": 9,
-      "reason": "Bug critique Claude Code affectant développeurs immédiatement, décision d'adoption/éviction du tool impératif.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds": {
-      "score": 8,
-      "reason": "Nouveau produit Attie (IA Bluesky/Claude) à tester pour customisation feeds, utilise Claude d'Anthropic.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://crazierl.org/demo/": {
-      "score": 3,
-      "reason": "OS hobby experimental sur BEAM, intérêt académique faible, pas d'application business ou marché concret.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france": {
-      "score": 1,
-      "reason": "Panneaux routiers pédagogiques en France, aucun lien technologie, marché ou décision business.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/": {
-      "score": 8,
-      "reason": "Problème de sécurité/confidentialité ChatGPT/Cloudflare avec impact décision d'utilisation immédiat pour utilisateurs.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
-    "https://hackaday.com/2026/03/29/laser-ranging-makes-gps-satellites-more-accurate/": {
-      "score": 6,
-      "reason": "Amélioration GPS par laser, innovation intéressante mais sans données marché ou application concrète urgente.",
-      "scored_at": "2026-03-30T01:59:45.872353+00:00"
-    },
     "https://www.sciencedaily.com/releases/2026/03/260329222930.htm": {
       "score": 2,
       "reason": "Volcanologie sans impact technologique, réglementaire ou marché actionnable.",
@@ -7474,6 +7409,101 @@
       "score": 1,
       "reason": "Article académique ancien (2005) sans pertinence stratégique actuelle.",
       "scored_at": "2026-04-05T20:26:59.402344+00:00"
+    },
+    "https://truthout.org/articles/us-war-machine-is-built-on-decades-of-lies-the-assault-on-iran-is-no-exception/": {
+      "score": 2,
+      "reason": "Opinion politique sans lien technologie, non pertinent pour veille tech/marché.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260405003952.htm": {
+      "score": 9,
+      "reason": "Rupture majeure : réduction énergétique IA 100x avec amélioration accuracy, impact direct sur coûts infrastructure.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://apexstandard.org/": {
+      "score": 7,
+      "reason": "Nouveau standard ouvert MCP pour agents IA trading, potentiel d'adoption mais détails insuffisants.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb": {
+      "score": 5,
+      "reason": "Sujet RH intéressant mais sans données concrètes ni impact technologique direct.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/arman-bd/guppylm": {
+      "score": 7,
+      "reason": "Outil pédagogique LLM 9M params executable gratuitement, utile pour apprendre transformers.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://playlists.at/youtube/search/": {
+      "score": 4,
+      "reason": "Outil YouTube tiers, utile mais niche sans impact stratégique.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/aayu22809/Recall": {
+      "score": 6,
+      "reason": "Recherche sémantique multimodale locale, intéressante mais peu détails sur performance/différenciation.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260405003943.htm": {
+      "score": 3,
+      "reason": "Recherche linguistique sans applications tech concrètes identifiées.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/mohshomis/modo": {
+      "score": 8,
+      "reason": "Alternative open-source à Cursor/Windsurf (éditeurs IA), produit à tester immédiatement.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260405003933.htm": {
+      "score": 2,
+      "reason": "Découverte biomédicale sans lien technologie ou marché.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/HudsonGri/mdarena": {
+      "score": 6,
+      "reason": "Benchmark Claude.md vs PRs, outil spécialisé peu pertinent sauf contexte Anthropic.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic": {
+      "score": 4,
+      "reason": "Rumeur d'investissement sans chiffres vérifiés ni impact confirmé.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://hackaday.com/2026/04/05/building-a-vise-stand-with-pen-like-retracting-wheels/": {
+      "score": 1,
+      "reason": "DIY établi sans innovation technologique.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/": {
+      "score": 8,
+      "reason": "Déploiement robots physiques réel au Japon, cas d'usage concret d'adoption IA/robotique.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/duo121/termhub": {
+      "score": 6,
+      "reason": "Passerelle terminal pour agents IA, utile mais architecture peu détaillée.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf": {
+      "score": 1,
+      "reason": "Analyse fiction anime, aucun lien veille technologique.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://openjdk.org/projects/panama/": {
+      "score": 5,
+      "reason": "Projet OpenJDK Panama (FFI), standard infrastructure mais maturité existante.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://sschueller.github.io/posts/the-free-market-lie/": {
+      "score": 8,
+      "reason": "Analyse comparée infrastructure Internet CH/US avec leçons marché réglementaire applicables Belgique.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
+    },
+    "https://musicforprogramming.net": {
+      "score": 1,
+      "reason": "Playlist musicale, non pertinent pour veille tech.",
+      "scored_at": "2026-04-06T02:00:15.610245+00:00"
     }
   }
 }
