@@ -1,35 +1,5 @@
 {
   "scores": {
-    "https://www.sciencedaily.com/releases/2026/03/260331001058.htm": {
-      "score": 6,
-      "reason": "Phonon laser intéressant scientifiquement mais sans application concrète identifiée ni horizon commercial clair pour décisions tech.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/03/260331001056.htm": {
-      "score": 7,
-      "reason": "Perovskite photostriction offre potentiel pour nouveaux capteurs/matériaux, à monitorer pour applications hardware futures.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/03/260331001054.htm": {
-      "score": 5,
-      "reason": "Avancée médicale pertinente mais hors scope veille tech/marché; pas d'impact réglementation Belgique/UE ou orientation technologique.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/03/260330233401.htm": {
-      "score": 1,
-      "reason": "Fait divers sanitaire sans lien avec tech, orientation stratégique ou marché technologique.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/03/260330233357.htm": {
-      "score": 2,
-      "reason": "Étude santé générale sans pertinence pour décisions tech, produits ou réglementations.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
-    "https://www.nature.com/articles/d41586-026-00974-2": {
-      "score": 8,
-      "reason": "Révolution des labs autonomes : rupture d'orientation technologique majeure, nouvelles outils IA/robotique à tester, impact R&D significatif.",
-      "scored_at": "2026-04-01T05:52:41.333851+00:00"
-    },
     "https://www.slate.fr/culture/sorties-cinema-nuestra-tierra-lucrecia-martel-grand-art-contre-enquete-argentine-chuschagasta-silent-friend-ildiko-enyedi": {
       "score": 1,
       "reason": "Critique cinématographique sans lien tech, aucun impact business ou marché.",
@@ -7379,6 +7349,166 @@
       "score": 1,
       "reason": "Étude de santé généraliste sans lien avec technologie, régulation ou décisions d'orientation professionnelle.",
       "scored_at": "2026-04-08T05:44:39.960030+00:00"
+    },
+    "https://www.courrierinternational.com/article/tech-en-australie-l-interdiction-des-reseaux-sociaux-aux-mineurs-ne-fonctionne-pas_242606": {
+      "score": 3,
+      "reason": "Fait divers géopolitique sans impact tech ou marché actionnable.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.01net.com/actualites/effraye-effet-secondaire-nouveau-claude-anthropic-prend-decision-inedite.html": {
+      "score": 9,
+      "reason": "Claude Mythos majeur : IA détectant zero-days critiques, décision inédite d'Anthropic de ne pas publier = rupture technologique et sécurité.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.tomshardware.fr/un-fournisseur-coreen-revele-la-prochaine-ambition-dapple-dans-lia/": {
+      "score": 8,
+      "reason": "Apple Baltra : nouvelle stratégie chip IA maison, réduction dépendance Broadcom = décision d'orientation technologique importante.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.futura-sciences.com/conso/bons-plans/guides-telecoms-road-trip-avril-2026-etravelsim-permet-il-rester-connecte-continu-9674/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Publicité camouflée pour EtravelSIM sans comparatif ou données de marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.01net.com/actualites/gemini-radicalement-changer-android-premieres-images-mise-a-jour.html": {
+      "score": 6,
+      "reason": "Mise à jour UI Gemini Android : intéressant mais changement cosmétique sans impact fonctionnel majeur.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.slate.fr/sciences/trous-noirs-supermassifs-gaz-galaxie-formation-etoiles-croissance-ralentissement": {
+      "score": 1,
+      "reason": "Cosmologie pure, zéro lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.01net.com/actualites/voici-comment-pourrait-sappeler-liphone-pliant-dapple.html": {
+      "score": 5,
+      "reason": "Rumeur iPhone pliant sans données concrètes ni timeline confirmée.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.01net.com/actualites/pourquoi-la-proposition-de-loi-examinee-ce-mercredi-au-senat-pourrait-renverser-le-rapport-de-force-entre-ia-et-auteurs.html": {
+      "score": 8,
+      "reason": "Proposition loi sénatoriale rééquilibrage IA-auteurs examinée mercredi : impact réglementaire direct et daté sur secteur IA.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.courrierinternational.com/article/la-lettre-de-l-educ-pour-le-somaliland-finie-l-invisibilite-diplomatique_242542": {
+      "score": 1,
+      "reason": "Géopolitique éducative sans lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.futura-sciences.com/planete/actualites/terre-or-vos-bijoux-peut-etre-ne-catastrophe-geologique-dure-millions-annees-133524/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Géologie/minéralogie sans application tech ou impact marché des matières premières.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.futura-sciences.com/sciences/actualites/espace-nasa-devoile-premieres-images-spherex-ce-ce-telescope-pourrait-reveler-origine-univers-w2t8-133407/#xtor%3DRSS-8": {
+      "score": 3,
+      "reason": "Télescope spatial futur (2027) : intérêt scientifique général, pas décision d'orientation ou produit à tester.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.slate.fr/monde/ukraine-guerre-russie-drone-frappe-fregate-navire-amiral-makarov": {
+      "score": 1,
+      "reason": "Fait divers militaire sans impact tech.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.tomshardware.fr/la-ps5-pro-vient-discretement-de-changer-pour-des-dizaines-de-jeux/": {
+      "score": 7,
+      "reason": "PS5 Pro PSSR v2.0 : amélioration concrète de scaling d'images, utile pour testeurs/gameurs optimisant rendus.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://korben.info/ghost-murmur-cia-battement-coeur-pilote-iran.html": {
+      "score": 8,
+      "reason": "Ghost Murmur CIA : technologie de localisation par signaux biologiques = produit/outil surveillance nouveau et impact réglementaire.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.pourlascience.fr/sd/medecine/jose-alain-sahel-l-implant-sous-retinien-prima-redonne-de-l-espoir-aux-patients-atteints-de-dmla-29046.php": {
+      "score": 6,
+      "reason": "Implant Prima sous-rétinien DMLA : avancée médicale concrète mais essais cliniques, pas produit marché immédiat.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-elles-ne-cherchent-plus-seulement-survivre-ces-ia-commencent-aussi-proteger-leurs-semblables-133526/#xtor%3DRSS-8": {
+      "score": 4,
+      "reason": "Titre sensoraliste sur IA : étude vague sans données précises ni preuve de comportements 'protecteurs' mesurables.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.frenchweb.fr/geo-quand-lintelligence-artificielle-redessine-les-regles-du-search/461199": {
+      "score": 7,
+      "reason": "GEO (Generative Engine Optimization) : nouveau cadre actionnable pour SEO post-IA, tendance claire et adoptable.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.01net.com/actualites/pourquoi-apple-vision-pro-cause-chaos-apple-store.html": {
+      "score": 3,
+      "reason": "Anecdote managerial Vision Pro : intérêt journalistique léger, zéro impact décision tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.slate.fr/monde/liberte-presse-maroc-pouvoir-musele-journalistes-medias-independants-strategie-controle-poursuites-justice-proces-prison": {
+      "score": 1,
+      "reason": "Politique maroc, zéro lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://korben.info/glasswing-anthropic-ia-cybersecurite-zero-day.html": {
+      "score": 9,
+      "reason": "Claude Mythos/Glasswing : IA Anthropic trouvant milliers zero-days, volontairement non public = rupture cybersécurité critique.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-jd-vance-en-hongrie-casques-bleus-au-liban-journaliste-liberee-en-irak-les-informations-de-la-nuit_242660": {
+      "score": 1,
+      "reason": "Faits divers géopolitiques génériques sans angle tech.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.courrierinternational.com/article/moyen-orient-dans-un-revirement-spectaculaire-trump-annonce-un-cessez-le-feu-de-deux-semaines-avec-l-iran_242661": {
+      "score": 2,
+      "reason": "Actualité politique Iran-USA : zéro lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.numerama.com/pop-culture/2227089-5-bonnes-raisons-de-voir-the-testaments-lintrigante-suite-de-the-handmaids-tale.html": {
+      "score": 1,
+      "reason": "Série TV, aucun lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.courrierinternational.com/article/en-salle-romer-a-l-eblouissant-pelerinage-familial-de-la-catalane-carla-simon_242005": {
+      "score": 1,
+      "reason": "Film cinéma, aucun lien tech ou marché.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.courrierinternational.com/article/tech-steve-wozniak-cofondateur-d-apple-j-aimais-l-idee-technique-steve-jobs-voyait-deja-le-marche_242562": {
+      "score": 2,
+      "reason": "Interview historique Steve Wozniak : nostalgique, pas décision d'orientation ou produit concret à tester.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.theverge.com/gadgets/907744/bose-soundlink-flex-2nd-gen-google-nest-doorbell-deal-sale": {
+      "score": 2,
+      "reason": "Promotion commerciale sans nouveauté produit ni impact stratégique.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.theverge.com/tech/907998/google-chrome-vertical-tabs": {
+      "score": 6,
+      "reason": "Mise à jour Chrome intéressante (onglets verticaux, mode lecture) mais fonctionnalités mineures et sans impact décisionnel majeur.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.eetimes.com/from-defect-images-to-die-prediction-how-intel-is-scaling-ai-in-advanced-manufacturing/": {
+      "score": 7,
+      "reason": "Déploiement IA en manufacturing chez Intel avec implication stratégique sur semi-conducteurs, mais manque détails chiffrés et calendrier.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/": {
+      "score": 8,
+      "reason": "Impact critique sur fiabilité des AI Overviews Google (90% accuracy insuffisant) : décision d'adoption de recherche IA affectée concrètement.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://arstechnica.com/gadgets/2026/04/linux-kernel-maintainers-are-following-through-on-removing-intel-486-support/": {
+      "score": 3,
+      "reason": "Décision technique Linux mineure (suppression support 486 obsolète) sans impact utilisateurs ni décisions business.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://printervention.app/details": {
+      "score": 4,
+      "reason": "Hack technique intéressant mais de niche (printers), sans application stratégique largement applicable.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
+    },
+    "https://www.newscientist.com/article/2519026-a-once-fantastical-collider-could-answer-physics-biggest-mysteries/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 2,
+      "reason": "Prospective scientifique lointaine sans impact marché ou décision technologique à court terme.",
+      "scored_at": "2026-04-08T08:55:45.382290+00:00"
     }
   }
 }
