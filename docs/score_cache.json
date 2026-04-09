@@ -1,150 +1,5 @@
 {
   "scores": {
-    "https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket": {
-      "score": 2,
-      "reason": "Fait divers sans impact technologique ou marché",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/gallery/gifts-for-lego-lovers/": {
-      "score": 2,
-      "reason": "Guide d'achat Lego, contenu marketing sans nouveauté",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/story/a-new-implant-aims-to-rewire-the-brain-to-help-stroke-patients/": {
-      "score": 7,
-      "reason": "Nouveau produit BCI concret (Epia Neuro) à tester pour orientations tech medical",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.eetimes.com/rambus-unveils-hbm4e-controller-16-gt-s-2048-bit-interface-enabling-c-hbm4e/": {
-      "score": 9,
-      "reason": "Rupture hardware critique : HBM4E 16 GT/s décisif pour IA/HPC, impact décisions infra",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://report.bearblog.dev/the-spacex-ipo-will-be-the-perfect-storm-of-retail-investor-fallacies/": {
-      "score": 4,
-      "reason": "Spéculation SpaceX IPO sans données concrètes ni impact immédiat",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/gallery/the-best-humidifier/": {
-      "score": 1,
-      "reason": "Guide d'achat humidificateurs, publicité produits grand public",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://lemonade-server.ai": {
-      "score": 8,
-      "reason": "Nouveau serveur LLM open-source local GPU/NPU AMD à évaluer immédiatement",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260401071940.htm": {
-      "score": 2,
-      "reason": "Conseil santé sans lien tech, opinion générale sans données",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://hackaday.com/2026/04/02/pixel-camera-puts-lo-fi-images-in-the-palm-of-your-hand/": {
-      "score": 3,
-      "reason": "Projet DIY hobby sans application professionnelle ou marché",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/story/one-solution-to-the-gas-price-spike-used-evs/": {
-      "score": 6,
-      "reason": "Impact prix EV lié géopolitique, tendance marché utile mais peu spécifique Belgique",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/story/i-took-rfk-jrs-advice-and-ate-nothing-but-high-protein-foods-for-a-week/": {
-      "score": 1,
-      "reason": "Opinion/chronique personnelle sans valeur stratégique",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://undark.org/2026/04/01/sweden-schools-books/": {
-      "score": 4,
-      "reason": "Tendance éducative intéressante mais pas d'impact tech direct ou datation Belgique",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://modolap.com/publication/hn-analysis-1": {
-      "score": 5,
-      "reason": "Analyse données HN intéressante mais limitée à communauté tech, sans actionabilité",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/review/momentum-vida-e-electric-bike/": {
-      "score": 3,
-      "reason": "Revue produit e-bike sans innovation ou comparatif décisionnel",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/review/apple-ipad-air-m4/": {
-      "score": 5,
-      "reason": "Revue iPad M4 modeste, peu d'apport pour orientation tech",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/": {
-      "score": 7,
-      "reason": "Impact prix plastique lié géopolitique Strait of Hormuz, tendance marché matières premières",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/story/border-patrol-bortac-borstar-use-of-force-midway-blitz/": {
-      "score": 2,
-      "reason": "Politique US sans lien tech ou impact business",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.wired.com/story/15-diy-tools-worth-upgrading-to-this-year/": {
-      "score": 2,
-      "reason": "Guide outils DIY marketing sans spécifications ou innovation",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://lwn.net/Articles/1065620/": {
-      "score": 1,
-      "reason": "Titre vague, URL LWN sans contenu clair dans le résumé",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing": {
-      "score": 8,
-      "reason": "Partenariat stratégique IBM-Arm majeur pour architecture enterprise à surveiller",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.eetimes.com/bell-called-watson-today-we-call-ai/": {
-      "score": 5,
-      "reason": "Opinion IA télécom générale sans données chiffrées ou timeline concret",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://blogit.michelin.io/clojure-programming/": {
-      "score": 3,
-      "reason": "Article 2021 sur Clojure enterprise, contenu ancien sans actualité",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://hackaday.com/2026/04/02/post-failure-autopsy-and-analysis-of-an-lfp-battery/": {
-      "score": 6,
-      "reason": "Analyse technique batterie LFP utile pour décisions matériel, cas spécifique limité",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "http://hi.telli.com/join-us": {
-      "score": 1,
-      "reason": "Offre d'emploi startup sans contenu technologique",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260401071947.htm": {
-      "score": 1,
-      "reason": "Archéologie sans lien tech ou marché",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260401071957.htm": {
-      "score": 5,
-      "reason": "Avancée scientifique intéressante mais sans impact business/marché immédiat ni timeline commerciale claire pour la fusion.",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260402004721.htm": {
-      "score": 3,
-      "reason": "Programme spatial sans lien avec orientations tech ou réglementation applicables à un contexte belge/européen d'affaires.",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://hackaday.com/2026/04/01/every-3d-printable-film-camera-in-one-place/": {
-      "score": 6,
-      "reason": "Application pratique 3D printing (prototypage) mais sujet niche sans donnée marché ou benchmark comparatif.",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260402000221.htm": {
-      "score": 3,
-      "reason": "Découverte médicale fondamentale intéressante mais sans impact sur décisions tech, produits à tester ou réglementation immédiate.",
-      "scored_at": "2026-04-02T16:52:40.954634+00:00"
-    },
     "https://thediplomat.com/2026/04/tajikistans-households-spend-more-than-they-earn/": {
       "score": 2,
       "reason": "Géopolitique sans lien tech/marché/réglementation pertinent pour la veille stratégique",
@@ -7074,6 +6929,131 @@
       "score": 3,
       "reason": "Suivi Artemis II sans données décisionnelles ni rupture technologique nouvelle.",
       "scored_at": "2026-04-09T13:14:41.269327+00:00"
+    },
+    "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn": {
+      "score": 2,
+      "reason": "Impact climatique intéressant mais sans lien technologie/business/marché actionnable.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.marketwatch.com/story/the-economy-slowed-sharply-even-before-the-iran-war-where-does-it-go-from-here-ed17c87c?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Analyse macroéconomique générale sans données chiffrées ni impact spécifique Belgique/UE.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.marketwatch.com/story/big-tech-stocks-look-like-especially-good-deals-as-investors-eye-what-is-next-for-the-market-def5e262?mod=mw_rss_topstories": {
+      "score": 5,
+      "reason": "Mention du secteur power/AI pour data centers mais analyse trop vague sans chiffres concrets.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.marketwatch.com/story/the-smart-money-is-swapping-risky-bets-on-ai-chips-for-guaranteed-payouts-ea66c0ac?mod=mw_rss_topstories": {
+      "score": 7,
+      "reason": "Tendance institutionnelle secteur énergie/data centers avec impact IA identifié; chiffres et orientation stratégique manquent.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.theverge.com/gadgets/909148/lenovo-gaming-laptop-nvidia-rtx-4050-deal-sale": {
+      "score": 3,
+      "reason": "Promotion commerciale d'un laptop sans innovation technologique ni benchmark pertinent.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://hackaday.com/2026/04/09/one-good-turn/": {
+      "score": 2,
+      "reason": "Projet 3D printing anecdotique sans impact marché ni utilité stratégique.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry": {
+      "score": 7,
+      "reason": "Enjeu télémétrie Claude/Vercel pertinent pour décisions d'orientation outils IA; manque détails techniques.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/": {
+      "score": 6,
+      "reason": "Plateforme zero-trust pour systèmes autonomes intéressante mais description trop abstraite, pas d'adoption chiffrée.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.marketwatch.com/story/dont-start-saving-for-college-until-you-have-these-4-financial-priorities-under-control-84988ed6?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Conseil financier générique sans lien technologie ni impact marché.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.theverge.com/transportation/909196/tesla-cheap-affordable-ev-musk-model-2": {
+      "score": 6,
+      "reason": "Décision produit Tesla pertinente pour stratégie EV mais basée sur rumeur Reuters sans confirmations officielles.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.theverge.com/streaming/909118/fubo-mobile-app-update-sports-streaming": {
+      "score": 3,
+      "reason": "Mise à jour app streaming cosmétique sans impact stratégique.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260408225934.htm": {
+      "score": 2,
+      "reason": "Découverte scientifique intéressante mais sans application technologique ou marché immédiate.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://arstechnica.com/cars/2026/04/first-tesla-canceled-the-model-2-now-its-working-on-a-new-small-ev/": {
+      "score": 5,
+      "reason": "Reformulation du sujet Tesla Model 2 sans information nouvelle par rapport à [9].",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/": {
+      "score": 1,
+      "reason": "Politique/influenceurs sans lien technologie ni impact business.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.theverge.com/policy/909192/live-nation-ticketmaster-antitrust-closing-arguments": {
+      "score": 4,
+      "reason": "Litige antitrust Ticketmaster sans outcome daté ni impact chiffré.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://hackaday.com/2026/04/09/turboquant-reducing-llm-memory-usage-with-vector-quantization/": {
+      "score": 8,
+      "reason": "TurboQuant réduit mémoire LLM: nouvelle technique concrète impactant décisions déploiement IA.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.theverge.com/podcast/909042/ai-monetization-cliff-anthropic-openai-profitable-ai-existential-moment": {
+      "score": 7,
+      "reason": "Enjeu monétisation IA critique pour orientation stratégique entreprises tech; analyse manque précision chiffrée.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://arstechnica.com/science/2026/04/trumps-emergency-orders-pushing-coal-power-are-illegal-as-well-as-dumb/": {
+      "score": 5,
+      "reason": "Politique énergétique US avec impact potentiel marché énergie mais décision légale incertaine.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/": {
+      "score": 1,
+      "reason": "Fait divers criminel sans lien technologie.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260408225943.htm": {
+      "score": 2,
+      "reason": "Étude comportementale intéressante mais application commerciale non évidente.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/": {
+      "score": 1,
+      "reason": "Contenu géopolitique/memes sans utilité stratégique ni technologie.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.axios.com/2026/04/09/meta-social-media-addiction-ads": {
+      "score": 5,
+      "reason": "Meta retire publicités litige addiction; signal réglementaire léger sans impact chiffré.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.wired.com/review/ridge-wallet/": {
+      "score": 1,
+      "reason": "Test produit de consommation (portefeuille) sans intérêt technologique.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.eetimes.com/sifive-400m-round-highlights-new-cpu-battleground-for-agentic-ai-demand/": {
+      "score": 9,
+      "reason": "SiFive $400M Series G pour CPU data center agentic AI: financement majeur, valuation $3.65B, orientation stratégique CPU/IA claire.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
+    },
+    "https://www.newscientist.com/article/2522566-sci-fi-show-the-miniature-wife-underwhelms-despite-the-big-names/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 1,
+      "reason": "Critique série TV sans lien technologie.",
+      "scored_at": "2026-04-09T17:01:51.756631+00:00"
     }
   }
 }
