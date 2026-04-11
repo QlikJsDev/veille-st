@@ -6994,6 +6994,76 @@
       "score": 1,
       "reason": "Critique littéraire de science-fiction, aucune pertinence technologique, réglementaire ou marché.",
       "scored_at": "2026-04-11T12:44:26.177133+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260411022023.htm": {
+      "score": 2,
+      "reason": "Santé générale sans impact tech, décision ou marché actionnable.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.theverge.com/gadgets/907645/nintendo-switch-2-genki-jsaux-usb-c-dock-hands-on": {
+      "score": 7,
+      "reason": "Nouveau standard USB-C Nintendo Switch 2 impactant l'écosystème accessoires, décision d'achat d'équipement.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/": {
+      "score": 5,
+      "reason": "Politique données Corée du Sud, intéressant mais sans impact Belgique/UE direct ni décision tech claire.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260411090018.htm": {
+      "score": 1,
+      "reason": "Conseil santé/nutrition sans pertinence tech ou marché.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8": {
+      "score": 6,
+      "reason": "Impact marché crypto/énergie (difficulté mining) mais sans données précises prix belge ou impact stratégique concret.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://galsapir.github.io/sparse-thoughts/2026/04/11/map-and-territory/": {
+      "score": 5,
+      "reason": "Réflexion sur interprétation LM intéressante mais trop conceptuelle, pas de décision ou produit à tester.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://cirruslabs.org/": {
+      "score": 8,
+      "reason": "Acquisition Cirrus Labs par OpenAI = nouvelle capacité IA, décision de suivi produits OpenAI immédiate.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.theverge.com/entertainment/909820/devils-on-the-moon-pinball-review-playdate": {
+      "score": 1,
+      "reason": "Article de loisirs (pinball Wii U) sans pertinence tech, business ou marché.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop": {
+      "score": 2,
+      "reason": "Geopolitique réseaux sociaux/memes sans impact tech, prix ou réglementation actionnable.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260411084441.htm": {
+      "score": 5,
+      "reason": "Pollution environnementale intéressante mais sans implication réglementaire Belgique/UE précise ni données chiffrées.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260411081426.htm": {
+      "score": 6,
+      "reason": "Avancée chimie/B1 potentiellement impactante pour secteur manufacturing vert, mais sans produit concret à tester.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth": {
+      "score": 2,
+      "reason": "Marché de prédiction géopolitique, pas d'impact tech, prix ou décision d'orientation professionnelle.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260411043048.htm": {
+      "score": 5,
+      "reason": "Découverte diagnostique Alzheimer intéressante mais très amont, pas de produit/test/réglementation immédiate.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260409101106.htm": {
+      "score": 4,
+      "reason": "Mécanisme biologique COVID vaccine, information sanitaire sans implication tech ou marché Belgique actuellement.",
+      "scored_at": "2026-04-11T16:30:28.500660+00:00"
     }
   }
 }
