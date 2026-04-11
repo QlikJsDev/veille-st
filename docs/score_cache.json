@@ -1,75 +1,5 @@
 {
   "scores": {
-    "https://www.theverge.com/gadgets/906586/best-ar-glasses-viture-xreal-gaming-steam-deck-switch-2": {
-      "score": 6,
-      "reason": "Test de produits AR existants (Xreal, Viture) avec cas d'usage pratique mais sans données chiffrées ni nouvelles fonctionnalités breakthrough.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent": {
-      "score": 7,
-      "reason": "Article technique sur architecture des coding agents IA avec 92 points HN et 40 commentaires = contenu technique actuel pertinent.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content": {
-      "score": 5,
-      "reason": "Réflexion générale sur détection IA vs humain sans données concrètes ni solution actionnable.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.wired.com/review/sonos-play/": {
-      "score": 3,
-      "reason": "Simple review de produit audio sans spécifications techniques comparatives ni données marché.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260404082652.htm": {
-      "score": 1,
-      "reason": "Santé médicale sans lien tech, hors périmètre veille technologique et stratégique.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260403224502.htm": {
-      "score": 2,
-      "reason": "Climat/météorologie générale sans impact business direct ni données exploitables pour décisions tech.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.ycombinator.com/companies/mbodi-ai/jobs/mf9L3sy-senior-robotics-engineer-systems-controls": {
-      "score": 2,
-      "reason": "Annonce d'embauche sans contenu technique détaillé ni nouveauté produit.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.theverge.com/games/904202/super-meat-boy-3d-review": {
-      "score": 2,
-      "reason": "Review jeu vidéo indépendant sans impact stratégique ni données marché.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.theverge.com/tech/906873/sofa-app-track-tv-movies-installer": {
-      "score": 2,
-      "reason": "Recommandations produits génériques sans analyse comparative ni nouvelles fonctionnalités.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.wired.com/gallery/best-ski-clothes/": {
-      "score": 1,
-      "reason": "Guide vêtements sportifs, hors périmètre tech et stratégie.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/04/260403224508.htm": {
-      "score": 4,
-      "reason": "Découverte neuroscientifique intéressante mais sans application tech/produit concrète ni horizon d'impact marché.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms": {
-      "score": 7,
-      "reason": "Débat CMS avec 82 points HN et 62 commentaires = sujet d'orientation tech pertinent pour décisions architecture web.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://www.wired.com/review/aiper-irrisense-2-smart-irrigation-system/": {
-      "score": 5,
-      "reason": "Test produit IoT spécialisé (irrigation) sans données chiffrées comparatives ni marché adressable clair.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
-    "https://hackaday.com/2026/04/04/the-rapper-the-canadian-academics-and-the-secret-behind-the-earworm/": {
-      "score": 1,
-      "reason": "Contenu culture/musique sans pertinence technologique ou stratégique.",
-      "scored_at": "2026-04-04T20:24:05.105923+00:00"
-    },
     "https://sllm.cloud": {
       "score": 8,
       "reason": "Nouveau modèle économique pour accès GPU partagé; permet tester DeepSeek V3 à coût réduit (décision d'orientation tech et nouveau produit concret).",
@@ -7064,6 +6994,91 @@
       "score": 4,
       "reason": "Mécanisme biologique COVID vaccine, information sanitaire sans implication tech ou marché Belgique actuellement.",
       "scored_at": "2026-04-11T16:30:28.500660+00:00"
+    },
+    "https://www.marketwatch.com/story/interest-rates-are-headed-lower-real-yields-suggest-a-half-point-fed-cut-is-coming-b5fd1e22?mod=mw_rss_topstories": {
+      "score": 5,
+      "reason": "Analyse générale des taux Fed sans données précises ni impact immédiat actionnable pour la Belgique/UE.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.marketwatch.com/story/heres-how-much-weight-loss-drugs-wegovy-zepbound-and-foundayo-cost-and-how-to-pick-the-best-glp-1-for-you-48598e2f?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Comparatif de prix de médicaments (GLP-1) sans lien tech ni impact marché structurel.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://computerhistory.org/blog/the-apl-programming-language-source-code/": {
+      "score": 2,
+      "reason": "Historique d'un langage de programmation des années 1980, intérêt académique uniquement.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://hackaday.com/2026/04/11/authenticate-ssh-with-your-tpm/": {
+      "score": 7,
+      "reason": "Guide pratique d'authentification SSH avec TPM (sécurité système actionnable pour décisions de configuration).",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier": {
+      "score": 7,
+      "reason": "Analyse des modèles IA petits vs grands en cybersécurité avec implications pour choix technologiques.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "http://www.wideweb.com/phonetrips/": {
+      "score": 2,
+      "reason": "Annonce vague sans contenu ni données, lien mort potentiel.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://planetscale.com/blog/keeping-a-postgres-queue-healthy": {
+      "score": 6,
+      "reason": "Guide opérationnel Postgres Queue utile pour architectes, mais sans impact décisionnel large.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://kotaku.com/rockstar-games-reportedly-hacked-massive-data-leak-ransom-gta-6-shinyhunters-2000686858": {
+      "score": 3,
+      "reason": "Fait divers cybersécurité (piratage jeu vidéo) sans implication pour décisions tech ou réglementation.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.v68k.org/advanced-mac-substitute/": {
+      "score": 3,
+      "reason": "Projet émulation historique intéressant mais sans application professionnelle ou commerciale.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.theverge.com/tech/910691/google-news-polymarket-bets-error": {
+      "score": 4,
+      "reason": "Incident Google News mineur, correction rapide sans impact business ou réglementaire.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers": {
+      "score": 2,
+      "reason": "Problèmes de lancement jeu vidéo, non pertinent pour veille technologique/stratégique.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai": {
+      "score": 3,
+      "reason": "Critique opinion sur usage d'art IA en illustration, sans données ni impact décisionnel.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.theverge.com/gadgets/910472/google-nest-doorbell-wired-battery-powered-deal-sale": {
+      "score": 4,
+      "reason": "Annonce promotionnelle de réduction prix produit Google (publicité déguisée).",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances": {
+      "score": 5,
+      "reason": "Article opinion critique générale sur technologie sans propositions ou données concrètes.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/": {
+      "score": 5,
+      "reason": "Historique industriel sans éléments actuels ou décisions technologiques à prendre.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://hackaday.com/2026/04/11/whats-your-favorite-kind-of-hack/": {
+      "score": 6,
+      "reason": "Focus firmware open-source sur produits commerciaux, intérêt pour stratégie d'adoption.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion": {
+      "score": 2,
+      "reason": "Anecdote amusante sur hallucination IA sans implication pour décisions ou réglementation.",
+      "scored_at": "2026-04-11T20:27:07.799130+00:00"
     }
   }
 }
