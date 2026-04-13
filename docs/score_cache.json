@@ -1,35 +1,5 @@
 {
   "scores": {
-    "https://www.convexly.app/": {
-      "score": 4,
-      "reason": "Article personnel sur un outil de quiz, sans données chiffrées ni impact business concret mesurable.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
-    "https://thediplomat.com/2026/04/remembering-vietnams-worst-environmental-disaster-and-the-ongoing-cover-up/": {
-      "score": 1,
-      "reason": "Catastrophe environnementale historique sans lien tech ni impact marché pertinent.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
-    "https://thediplomat.com/2026/04/vietnam-war-redux/": {
-      "score": 1,
-      "reason": "Géopolitique pure sans implication technologique ou réglementaire mesurable.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
-    "https://thediplomat.com/2026/04/indias-59-year-maoist-insurgency-collapses/": {
-      "score": 1,
-      "reason": "Fait politique/géopolitique sans connexion à la veille technologique ou marchés.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
-    "https://thediplomat.com/2026/04/how-the-india-myanmar-border-in-the-northeast-is-being-misread/": {
-      "score": 1,
-      "reason": "Analyse géopolitique sans implication tech, réglementation ou marché actionnable.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
-    "https://content.knowledgehub.wiley.com/5g-ntn-takes-flight-technical-overview-of-5g-non-terrestrial-networks/": {
-      "score": 7,
-      "reason": "Standard 3GPP Release 17 avec impact concret sur connectivité globale, pertinent pour décisions d'infrastructure 5G.",
-      "scored_at": "2026-04-06T20:33:26.019043+00:00"
-    },
     "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat": {
       "score": 2,
       "reason": "Menace géopolitique sans impact tech/business concret, risque spéculatif.",
@@ -7289,6 +7259,111 @@
       "score": 4,
       "reason": "Étude qualitative sur la perception humaine sans données chiffrées, benchmarks concrets ou impact immédiat sur l'orientation technologique.",
       "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/transportation/911085/slate-truck-ev-fundraise-twg-global-bezos": {
+      "score": 5,
+      "reason": "Startup EV intéressant mais sans impact immédiat sur décisions tech ou marchés belges; financement classique sans rupture.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://blog.cloudflare.com/cf-cli-local-explorer/": {
+      "score": 6,
+      "reason": "CLI Cloudflare utile pour devops mais mise à jour incrémentale; intérêt limité sans détails concrets.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses": {
+      "score": 8,
+      "reason": "Intégration IA autonome dans Copilot/M365 = nouvelle fonctionnalité majeure à tester pour stratégie d'outils.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.theverge.com/gadgets/910966/google-pixel-10a-sony-wf-1000xm6-earbuds-deal-sale": {
+      "score": 2,
+      "reason": "Promotion tarifaire ponctuelle d'un téléphone; pas de nouvelles fonctionnalités ni décision d'orientation.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.wired.com/gallery/best-fitness-tracker/": {
+      "score": 3,
+      "reason": "Guide comparatif générique sans données chiffrées ni nouveauté; opinion sans nuance actionnable.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://github.com/sterlingcrispin/nothing-ever-happens": {
+      "score": 2,
+      "reason": "Bot de marché de prédiction anecdotique; pas d'impact business ou décision stratégique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/iran-war-tests-brics-and-reveals-its-limits/": {
+      "score": 1,
+      "reason": "Analyse géopolitique sans données marché ni impact technologique/réglementaire Belgique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/india-on-the-high-seas-hormuz-and-the-future-of-maritime-security/": {
+      "score": 1,
+      "reason": "Géopolitique marine sans données marché ou impact tech/réglementation belge.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/japan-is-americas-indispensable-ally/": {
+      "score": 1,
+      "reason": "Politique étrangère sans lien décision tech ou impact marché belge.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.newscientist.com/article/2522765-collapse-of-key-ocean-current-may-release-billions-of-tonnes-of-carbon/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 4,
+      "reason": "Risque climatique global intéressant mais sans données précises ni décision tech/réglementation Belgique actionnable.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.newscientist.com/article/2520435-chernobyl-at-40-the-man-with-the-most-dangerous-job-on-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 1,
+      "reason": "Portrait historique sans impact tech ou décision business.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://www.newscientist.com/article/2520367-chernobyl-at-40-the-past-present-and-future-of-a-nuclear-disaster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 2,
+      "reason": "Contexte historique Chernobyl sans données marché ou réglementation nouvelle.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/the-domestic-politics-of-cheng-li-wuns-china-trip/": {
+      "score": 1,
+      "reason": "Politique interne taïwanaise sans lien tech ou marché.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/dependence-without-trust-the-drivers-of-pakistan-uae-divergence/": {
+      "score": 1,
+      "reason": "Relations diplomatiques sans impact tech ou décision stratégique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/with-orban-gone-china-has-lost-its-best-friend-in-the-eu/": {
+      "score": 2,
+      "reason": "Géopolitique UE-Chine générale; sans impact réglementaire ou tech concret pour Belgique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/tokayev-iran-and-the-erosion-of-kazakhstans-multi-vector-diplomacy/": {
+      "score": 1,
+      "reason": "Analyse géopolitique Kazakhstan sans données marché ou impact tech.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/the-investment-implications-of-japans-cross-border-carbon-trade/": {
+      "score": 6,
+      "reason": "Carbon trade Japon pertinent pour investissements ESG mais manque données précises et impact Belgique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/which-asian-countries-are-most-at-risk-from-the-iran-energy-shock/": {
+      "score": 7,
+      "reason": "Choc énergétique Iran/Asie avec impacts concrets (usines, airlines, énergie); pertinent pour anticipation prix.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/why-the-us-iran-talks-in-pakistan-ended-in-a-deadlock/": {
+      "score": 2,
+      "reason": "Analyse diplomatique sans données marché ou impact tech Belgique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/amb-stephen-rapp-on-how-the-ground-is-being-prepared-for-ethnic-cleansing-in-india/": {
+      "score": 1,
+      "reason": "Politique intérieure Inde sans lien tech ou décision stratégique.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
+    },
+    "https://thediplomat.com/2026/04/why-the-india-bangladesh-ganges-treaty-renewal-must-deliver-real-security/": {
+      "score": 2,
+      "reason": "Traité diplomatique Inde-Bangladesh sans impact réglementaire ou tech belge.",
+      "scored_at": "2026-04-13T20:48:18.614311+00:00"
     }
   }
 }
