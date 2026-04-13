@@ -1,65 +1,5 @@
 {
   "scores": {
-    "https://news.ycombinator.com/item?id=47660343": {
-      "score": 1,
-      "reason": "Annonce de recrutement sans contenu technique ou stratégique exploitable.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://belief.horse/notes/what-being-ripped-off-taught-me/": {
-      "score": 2,
-      "reason": "Récit personnel sans données ou implications technologiques/réglementaires concrètes.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://arstechnica.com/culture/2026/04/memento-turns-25/": {
-      "score": 1,
-      "reason": "Analyse cinématographique sans lien avec technologie ou marché.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.newscientist.com/article/2522065-novel-approach-to-clearing-brain-waste-shows-promise-for-alzheimers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
-      "score": 4,
-      "reason": "Recherche médicale prometteuse mais sans impact immédiat sur décisions tech ou réglementation.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.wired.com/gallery/best-apple-watch-accessories/": {
-      "score": 2,
-      "reason": "Guide d'accessoires consommateurs sans nouveauté produit ou tendance marché significative.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://hackaday.com/2026/04/06/simulating-the-avr8-for-a-browser-based-arduino-emulator/": {
-      "score": 7,
-      "reason": "Outil technique nouveau (émulateur AVR8 navigateur) utile pour prototypage Arduino/développeurs.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.theverge.com/tech/900302/ai-seo-industry-google-search-chatgpt-gemini-marketing": {
-      "score": 8,
-      "reason": "Enjeu stratégique concret : SEO optimisation pour réponses IA, impact direct sur choix de plateforme et visibilité.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/": {
-      "score": 7,
-      "reason": "Cas d'usage IA réel pour décisions produit PME, applicable à orientation outils décisionnels.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.wired.com/story/doj-misled-judge-voter-roll-data/": {
-      "score": 3,
-      "reason": "Politique/conformité US sans impact direct sur technologie ou marché belge/UE.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.wired.com/story/robot-mowers-are-good-now-rave/": {
-      "score": 5,
-      "reason": "Tendance accessibilité hardware, mais sans nouvelles spécifications ou rupture technologique significative.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.wired.com/snake-bros-antivenom-index-zoos-influencers-chris-gifford/": {
-      "score": 1,
-      "reason": "Anecdote humanitaire sans relation avec technologie ou marché.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
-    "https://www.wired.com/story/5-mysteries-that-the-artemis-missions-to-the-moon-could-finally-solve/": {
-      "score": 3,
-      "reason": "Exploration spatiale intéressante mais sans impact sur décisions tech d'entreprise ou marché proche.",
-      "scored_at": "2026-04-06T16:40:16.881148+00:00"
-    },
     "https://www.convexly.app/": {
       "score": 4,
       "reason": "Article personnel sur un outil de quiz, sans données chiffrées ni impact business concret mesurable.",
@@ -7219,6 +7159,136 @@
       "score": 8,
       "reason": "Rupture technologique majeure (quantum computing vs. encryption) nécessitant décisions d'orientation de sécurité informatique dès maintenant.",
       "scored_at": "2026-04-13T13:14:54.799765+00:00"
+    },
+    "https://hackaday.com/2026/04/13/from-lunar-dust-to-breathable-air/": {
+      "score": 2,
+      "reason": "Sujet spatial lointain sans impact technologique ou marché actionnable pour décisions court/moyen terme.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/games/910385/pragmata-review-ps5-xbox-switch-2-pc": {
+      "score": 1,
+      "reason": "Critique de jeu vidéo Capcom, hors scope technologique et stratégique.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most": {
+      "score": 4,
+      "reason": "Titre accrocheur sur cyber-géopolitique mais résumé vide, impossible d'évaluer la substance.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/": {
+      "score": 5,
+      "reason": "Guide tmux utile pour devs mais peu novateur, application pratique limitée aux équipes infrastructure.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043135.htm": {
+      "score": 3,
+      "reason": "Impact climatique intéressant mais sans données chiffrées, pas de décision stratégique directe.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://arstechnica.com/cars/2026/04/slate-auto-raises-650-million-as-production-gets-closer-and-closer/": {
+      "score": 4,
+      "reason": "Slate Truck EV avec prix et date (2026), mais startup sans traction éprouvée, info insuffisante.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043141.htm": {
+      "score": 3,
+      "reason": "Innovation médicale intéressante mais hors scope tech/stratégie, aucun impact marché clair.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://hackaday.com/2026/04/13/skylab-under-the-ocean/": {
+      "score": 2,
+      "reason": "Analogie station spatiale/sous-marine anecdotique, contenu de divertissement sans utilité décisionnelle.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/tech/909765/switchbot-bot-rechargeable-smart-home-usb-c": {
+      "score": 6,
+      "reason": "Mise à jour produit concret (batterie rechargeable SwitchBot) avec amélioration UX, adoption potentielle faible.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/podcast/910443/can-puck-reinvent-the-news-business-for-the-influencer-age": {
+      "score": 1,
+      "reason": "Modèle média/newsletter, hors scope technologique et stratégique.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.wired.com/story/shingles-is-a-bigger-deal-than-you-think/": {
+      "score": 2,
+      "reason": "Santé publique intéressant mais sans données marché ou décision tech/stratégie.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.wired.com/story/byd-denza-z9-gt-fastest-charging-car-in-the-world/": {
+      "score": 7,
+      "reason": "BYD Denza Z9 GT charge 9min, rupture EV significative avec pricing stratégique à analyser.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://arstechnica.com/ai/2026/04/meta-spins-up-ai-version-of-mark-zuckerberg-to-engage-with-employees/": {
+      "score": 6,
+      "reason": "Meta déploie AI avatar de Zuckerberg, expérimentation IA RH concrète à surveiller mais peu documentée.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/": {
+      "score": 5,
+      "reason": "Microsoft renomme Copilot Windows 11, changement cosmétique sans impact fonctionnel réel.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.eetimes.com/aos-protection-switches-support-type-c-extended-power-delivery/": {
+      "score": 7,
+      "reason": "Protection Type-C EPR nouveau standard USB, décision intégration/sourcing pour fabricants électroniques.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone": {
+      "score": 6,
+      "reason": "AI avatar Zuckerberg avec voix/image, pilote IA RH à tester mais détails techniques insuffisants.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/": {
+      "score": 2,
+      "reason": "Loi distillation maison USA, anecdotique et sans impact tech/stratégie Belgique/UE.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043129.htm": {
+      "score": 2,
+      "reason": "Santé/obésité sans données marché ou application tech.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.collabora.com/news-and-blog/news-and-events/mainline-video-capture-and-camera-support-for-rockchip-rk3588.html": {
+      "score": 8,
+      "reason": "Support mainline vidéo Rockchip RK3588, clé pour Linux embedded/IoT, adoption critique pour devs.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043127.htm": {
+      "score": 2,
+      "reason": "Écologie baleine intéressante mais sans impact marché ou décision stratégique.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.theverge.com/science/910326/iran-strait-hormuz-fertilizer-feedstock-food-crisis": {
+      "score": 6,
+      "reason": "Crise alimentaire Strait Hormuz + géopolitique Iran, impact prix commodités et supply chain à surveiller.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/": {
+      "score": 8,
+      "reason": "Stanford AI Index 2026 avec charts trend IA, ressource incontournable pour orientation stratégique.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043123.htm": {
+      "score": 2,
+      "reason": "Biologie plantes intéressante mais hors scope tech/stratégie.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/04/260413043155.htm": {
+      "score": 8,
+      "reason": "Superatoms quantiques théorie pour stabiliser qubits, rupture paradigme quantum computing à suivre.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://servo.org/blog/2026/04/13/servo-0.1.0-release/": {
+      "score": 7,
+      "reason": "Servo moteur de rendu Rust sur crates.io, nouvelle pile web alternative à évaluer.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
+    },
+    "https://spectrum.ieee.org/boston-dynamics-spot-interaction": {
+      "score": 4,
+      "reason": "Étude qualitative sur la perception humaine sans données chiffrées, benchmarks concrets ou impact immédiat sur l'orientation technologique.",
+      "scored_at": "2026-04-13T16:58:59.460300+00:00"
     }
   }
 }
