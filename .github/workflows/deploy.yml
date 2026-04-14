@@ -2,7 +2,7 @@ name: Génération & Déploiement GitHub Pages
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # toutes les 4 heures
+    - cron: "0 5 * * *"     # tous les jours à 7h heure belge (5h UTC)
   push:
     branches: [main]
   workflow_dispatch:
