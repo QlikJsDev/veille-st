@@ -7209,6 +7209,71 @@
       "score": 7,
       "reason": "Adoption reconnaissance faciale = réglementation/conformité RGPD à anticiper pour Belgique/UE.",
       "scored_at": "2026-04-14T05:57:30.223267+00:00"
+    },
+    "https://www.pourlascience.fr/sd/biologie-vegetale/une-espece-d-igname-produit-de-faux-fruits-pour-attirer-les-oiseaux-28913.php": {
+      "score": 2,
+      "reason": "Biologie végétale sans lien avec tech, décisions d'orientation ou marchés pertinents.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://www.wired.com/story/most-wired-watches-at-watches-and-wonders-2026/": {
+      "score": 1,
+      "reason": "Article de luxe/lifestyle, pas de contenu technologique actionnable.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://so.long.thanks.fish/can-claude-fly-a-plane/": {
+      "score": 5,
+      "reason": "Test conceptuel de Claude intéressant mais sans données concrètes ni impact business mesurable.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://github.com/citguru/openduck": {
+      "score": 4,
+      "reason": "Projet open-source DuckDB distribué, audience très réduite (8 points), peu de validation.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://devforum.roblox.com/t/new-publishing-requirements-evaluation-process-for-games/4573166": {
+      "score": 7,
+      "reason": "Changement réglementaire Roblox impactant les développeurs (nouvelle souscription requise), décision d'orientation claire.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://kirancodes.me/posts/log-distributed-llms.html": {
+      "score": 6,
+      "reason": "Architecture multi-agents pertinente mais article conceptuel sans benchmark ou implémentation concrète testable.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://people.cs.uchicago.edu/~aachien/lssg/research/10x10/ics26-single-chip-updown.pdf": {
+      "score": 7,
+      "reason": "Rupture architecture multi-cœurs (UpDown) potentiellement significative, mais peu de traction communautaire (5 points).",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://tanstack.com/blog/react-server-components": {
+      "score": 8,
+      "reason": "Support React Server Components dans TanStack Start = décision d'orientation majeure pour frontend, forte traction (28 points, 21 commentaires).",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://www.marketwatch.com/story/streaming-viewers-are-ok-with-double-the-commercials-as-subscription-fatigue-sets-in-5fa4d005?mod=mw_rss_topstories": {
+      "score": 6,
+      "reason": "Tendance marché streaming intéressante mais pas de données chiffrées précises ni impact Belgique/UE.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://hackaday.com/2026/04/13/electric-truck-sets-racing-record/": {
+      "score": 2,
+      "reason": "Actualité motorsport sans lien avec tech, marchés ou décisions d'orientation.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://www.wired.com/story/doordash-promo-code/": {
+      "score": 1,
+      "reason": "Publicité commerciale déguisée, zéro contenu technologique.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://www.newscientist.com/article/2520573-were-solving-the-fundamental-mystery-of-how-reality-is-glued-together/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home": {
+      "score": 3,
+      "reason": "Physique fondamentale intéressante mais sans application concrète ni horizon de disruption identifié.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
+    },
+    "https://spectrum.ieee.org/invences-startup-telecom-networks": {
+      "score": 5,
+      "reason": "Offre télécom PME générique, résumé incomplet, sans chiffres ou validation marché Belgique.",
+      "scored_at": "2026-04-14T07:04:40.316883+00:00"
     }
   }
 }
