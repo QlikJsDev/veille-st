@@ -2,19 +2,6 @@
   "runs": [
     {
       "model": "claude-haiku-4-5",
-      "input_tokens": 1467,
-      "output_tokens": 522,
-      "cost_usd": 0.00408,
-      "articles_scored": 397,
-      "articles_new": 135,
-      "articles_from_cache": 262,
-      "articles_kept": 79,
-      "price_input_per_m": 1.0,
-      "price_output_per_m": 5.0,
-      "timestamp": "2026-04-12T20:29:44.296511+00:00"
-    },
-    {
-      "model": "claude-haiku-4-5",
       "input_tokens": 4964,
       "output_tokens": 1776,
       "cost_usd": 0.01384,
@@ -779,6 +766,19 @@
       "price_input_per_m": 1.0,
       "price_output_per_m": 5.0,
       "timestamp": "2026-06-03T09:23:47.355968+00:00"
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "input_tokens": 16733,
+      "output_tokens": 5271,
+      "cost_usd": 0.04309,
+      "articles_scored": 397,
+      "articles_new": 324,
+      "articles_from_cache": 73,
+      "articles_kept": 57,
+      "price_input_per_m": 1.0,
+      "price_output_per_m": 5.0,
+      "timestamp": "2026-06-04T08:46:11.423173+00:00"
     }
   ]
 }
