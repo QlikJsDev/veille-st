@@ -1,34 +1,3 @@
 {
-  "scores": {
-    "https://www.sciencedaily.com/releases/2026/06/260625014830.htm": {
-      "score": 3,
-      "reason": "Innovation matériaux intéressante mais sans impact commercial clair, pas de données chiffrées marché ou timeline de déploiement.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    },
-    "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler": {
-      "score": 6,
-      "reason": "Mise à jour produit hardware audio avec nouvelles fonctions (USB, lo-fi, arpégiateur) — utilité limitée en dehors du segment niche musicien.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    },
-    "https://www.sciencedaily.com/releases/2026/06/260624115133.htm": {
-      "score": 2,
-      "reason": "Découverte scientifique en phase recherche sans application commerciale immédiate ni horizon de produit/traitement.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    },
-    "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out": {
-      "score": 1,
-      "reason": "Opinion généraliste d'une figure publique sur l'IA sans donnée, benchmark ou nouveauté technologique actionnable.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    },
-    "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/": {
-      "score": 1,
-      "reason": "Publicité déguisée Prime Day — aucune information technologique ou stratégique pertinente.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    },
-    "https://thediplomat.com/2026/06/pakistan-wants-the-world-to-see-it-as-a-peacemaker-i-want-it-to-find-my-father/": {
-      "score": 1,
-      "reason": "Géopolitique/droits humains sans lien technologie, marché ou réglementation Belgique/UE.",
-      "scored_at": "2026-06-29T09:24:49.985131+00:00"
-    }
-  }
+  "scores": {}
 }
