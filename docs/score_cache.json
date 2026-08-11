@@ -1,255 +1,5 @@
 {
   "scores": {
-    "https://www.sciencesetavenir.fr/sante/l-esperance-de-vie-venait-a-baisser_193248?xtor=RSS-16": {
-      "score": 3,
-      "reason": "Analyse générale sur l'espérance de vie sans données concrètes ou impact business actionnable.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.futura-sciences.com/sciences/actualites/mars-cela-nous-coupe-souffle-immense-structure-nid-abeilles-decouverte-mars-intrigue-nasa-136617/#xtor%3DRSS-8": {
-      "score": 2,
-      "reason": "Découverte astronomique intéressante mais sans application technologique ou marché pertinent.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.01net.com/tests/test-samsung-galaxy-z-fold-8-ultra.html": {
-      "score": 7,
-      "reason": "Test de nouveau produit (Galaxy Z Fold 8 Ultra) avec améliorations concrètes à évaluer pour adoption.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-apres-openai-claude-echappe-son-tour-test-pirate-trois-entreprises-etre-detecte-136672/#xtor%3DRSS-8": {
-      "score": 9,
-      "reason": "Incident de sécurité IA majeur (Claude/Anthropic) : impact direct sur fiabilité des modèles en production, décision d'orientation tech critique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.01net.com/actualites/fraude-massive-carte-grise-france-impose-nouvelles-regles-1er-aout-2026.html": {
-      "score": 6,
-      "reason": "Nouvelle réglementation France (août 2026) sur cartes grises, impact limité pour Belgique/UE sans précision belge.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.slate.fr/societe/couple-relation-attachement-experts-recherche-echec-cerveau-amour-relations-amoureuses": {
-      "score": 1,
-      "reason": "Étude comportementale sans lien tech, marché ou réglementation pertinents.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.01net.com/tests/tests-quil-ne-fallait-pas-rater-sur-01net-juillet-2026.html": {
-      "score": 4,
-      "reason": "Article de synthèse sans contenu nouveau, simple agrégateur de tests passés.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/espace/eclipse-solaire-du-12-aout-2026-a-quelle-heure-et-ou-l-observer-en-france_193174?xtor=RSS-9": {
-      "score": 2,
-      "reason": "Événement astronomique sans impact économique ou technologique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.slate.fr/boire-manger/coca-cola-recette-origine-americaine-florence-moines-elixir-fatigue-archives-pharmacie-couvent-decouverte": {
-      "score": 1,
-      "reason": "Article historique anecdotique sans pertinence tech ou marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.iris-france.org/les-mauvais-calculs-de-liran/": {
-      "score": 3,
-      "reason": "Analyse géopolitique sans données chiffrées ni impact marché/tech direct.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/nature-environnement/incendies-en-europe-les-derniers-developpements_194021?xtor=RSS-15": {
-      "score": 5,
-      "reason": "Situation climatique grave mais article général sans chiffres belges ou implications tech/marché précises.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/archeo-paleo/le-faible-niveau-du-danube-revele-des-ossements-de-mammouth-en-bulgarie_194045?xtor=RSS-4": {
-      "score": 1,
-      "reason": "Découverte paléontologique anecdotique sans impact pertinent.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/sante/peut-on-vraiment-ralentir-le-vieillissement_194047?xtor=RSS-16": {
-      "score": 4,
-      "reason": "Profil d'entrepreneur intéressant mais analyse sans données concrètes sur longevité ou produits à tester.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.slate.fr/sciences/astronomes-jet-lumiere-insolite-trou-noir-etoile-phenomene-espace-univers-collaboration-internationale-telescope-spatial": {
-      "score": 2,
-      "reason": "Découverte astronomique fascinante mais sans application technologique ou marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/sante/un-antiviral-pour-lutter-contre-la-recrudescence-de-la-rougeole_194040?xtor=RSS-16": {
-      "score": 6,
-      "reason": "Antiviral contre rougeole en étude, pertinent pour santé publique mais sans détails produit ou délai de commercialisation.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/high-tech/l-ia-d-anthropic-a-accede-sans-autorisation-aux-systemes-d-autres-organisations_194043?xtor=RSS-12": {
-      "score": 9,
-      "reason": "Incident sécurité IA critique (Claude/Anthropic) : même que [3], impact direct sur fiabilité modèles et décisions orientation tech.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.iris-france.org/infantino-nous-trump-enormement/": {
-      "score": 2,
-      "reason": "Conflit UEFA/FIFA sans lien tech ou marché pertinent.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/sante/quels-sont-les-risques-des-incendies-sur-la-sante-des-riverains_194035?xtor=RSS-16": {
-      "score": 4,
-      "reason": "Conseils santé face incendies utiles mais génériques, pas de données ou produits concrets.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.tomshardware.fr/seagate-prevoit-des-disques-durs-dune-capacite-inedite-pour-2027/": {
-      "score": 8,
-      "reason": "Technologie HAMR Seagate 2027 : rupture stockage disque dur à évaluer, impact décision infrastructure IT.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.slate.fr/tech-internet/revenues-intelligence-artificielle-ia-investissements-benefices-economie-entreprises-futur-boom-economique": {
-      "score": 7,
-      "reason": "Analyse rentabilité IA avec données d'investissement, signale risque marché et fléchissement retours.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.tomshardware.fr/le-macbook-neo-tire-la-croissance-des-revenus-mac-dapple-au-troisieme-trimestre-2026/": {
-      "score": 6,
-      "reason": "Succès MacBook Neo (Apple M4) avec croissance 25%, utile pour décision achat mais impact limité pour Belgique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.tomshardware.fr/nvidia-geforce-rtx-5070-super-caracteristiques-performances-voici-tout-ce-que-lon-sait/": {
-      "score": 7,
-      "reason": "Fuite Nvidia RTX 5070 Super : nouvelle génération GPU à surveiller pour décisions équipements IA/gaming.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.iris-france.org/guerres-pour-lhegemonie-regionale-au-moyen-orient/": {
-      "score": 3,
-      "reason": "Analyse géopolitique sans données chiffrées ni impact marché/tech direct mesurable.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/sante/ia-pourquoi-doctolib-va-t-il-utiliser-nos-donnees-de-sante-pour-des-recherches-scientifiques_194023?xtor=RSS-16": {
-      "score": 8,
-      "reason": "Doctolib + IA en août 2026 : impact direct RGPD/données santé Belgique/UE, décision utilisation produit critique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/nature-environnement/apres-les-pompiers-la-garde-du-feu-prend-le-relais-face-aux-feux-zombies_194019?xtor=RSS-15": {
-      "score": 4,
-      "reason": "Phénomène incendie intéressant mais sans données concrètes ou implications tech/marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/archeo-paleo/son-adn-revele-que-le-chamane-de-stonehenge-etait-une-femme_194004?xtor=RSS-4": {
-      "score": 2,
-      "reason": "Archéologie sans impact technologique ou marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/high-tech/deepfakes-pornographiques-la-coree-du-sud-organise-la-riposte-face-a-une-nouvelle-forme-de-violence-numerique_194018?xtor=RSS-12": {
-      "score": 7,
-      "reason": "Régulation deepfakes pertinente, modèle coréen à surveiller pour impact UE/Belgique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.tomshardware.fr/galaxy-s25-et-s24-ultra-a-cause-de-la-mise-a-jour-de-juillet-les-smartphones-surchauffent/": {
-      "score": 6,
-      "reason": "Bug logiciel Samsung concret mais problème ponctuel sans impact stratégique durable.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.sciencesetavenir.fr/nature-environnement/jour-du-depassement-limites-planetaires-quels-outils-pour-calculer-la-pression-humaine_193992?xtor=RSS-15": {
-      "score": 4,
-      "reason": "Méthodologie scientifique générale sans données chiffrées actionables.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sd/biologie/la-photosynthese-detournee-pour-soulager-la-secheresse-oculaire-29358.php": {
-      "score": 3,
-      "reason": "Innovation biopharmaceutique très niche, pas de produit commercialisé.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/de-zoi-a-prenuvo-la-medecine-preventive-devient-une-industrie/462842": {
-      "score": 8,
-      "reason": "Marché santé préventive émergent (10M$) avec IA, produit à tester (PRENUVO, ZOĪ).",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.tomshardware.fr/la-russie-accuse-pavel-durov-fondateur-de-telegram-d-aide-au-terrorisme/": {
-      "score": 2,
-      "reason": "Affaire géopolitique sans impact tech direct ou décision d'orientation.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sr/podcast-a-lecoute-de-la-science/a-l-ecoute-de-la-science-comment-l-histoire-genetique-des-populations-a-forge-notre-immunite-avec-lluis-quintana-murci-29462.php": {
-      "score": 3,
-      "reason": "Podcast scientifique généraliste sans données concrètes.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/lanalyse-du-cycle-de-vie-redessine-la-strategie-produit-des-entreprises/462791": {
-      "score": 7,
-      "reason": "ACV redessine stratégie produit et innovation, métrique environnementale actionable.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/les-nouveaux-defis-des-marques-face-aux-moteurs-de-recherche-generatifs/462787": {
-      "score": 8,
-      "reason": "Moteurs recherche génératifs changent SEO/stratégie visibilité digitale concrètement.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sd/physique/le-temps-s-ecoule-t-il-reellement-20387.php": {
-      "score": 2,
-      "reason": "Physique théorique sans application business ou technologique.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sr/edito/le-sens-de-la-mesure-29425.php": {
-      "score": 1,
-      "reason": "Résumé vide, contenu indéterminable.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sd/mathematiques/pour-la-science-n586-29392.php": {
-      "score": 1,
-      "reason": "Titre vague sans résumé, contenu mathématique abstrait.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/no-code-ia-shadow-it-pourquoi-la-simplicite-et-la-souverainete-des-outils-deviennent-un-enjeu-de-gouvernance/462816": {
-      "score": 8,
-      "reason": "Shadow IT + no-code + IA change gouvernance IT et risques souveraineté données.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/theme/physique-quantique/les-fermions-sont-fondamentalement-differents-des-bosons-29361.php": {
-      "score": 2,
-      "reason": "Mécanique quantique théorique sans application technologique ou produit.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/de-lelectronique-de-puissance-a-los-industriel-la-trajectoire-de-gys/460364": {
-      "score": 7,
-      "reason": "Électronique de puissance + OS industriel redessine architectures usine, trajectoire innovation.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sd/neurosciences/quand-le-corps-faconne-l-experience-de-soi-et-du-monde-29437.php": {
-      "score": 3,
-      "reason": "Neurosciences généralistes sans application produit ou décision tech.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/self-stockage-un-levier-agile-pour-optimiser-la-logistique-des-startups-et-pme/462773": {
-      "score": 6,
-      "reason": "Tendance logistique (self-stockage) pertinente pour PME mais sans chiffres marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/alarme-maison-connectee-quels-criteres-examiner-avant-de-sequiper/462769": {
-      "score": 5,
-      "reason": "Guide d'achat alarme connectée sans benchmark comparatif ou nouveauté.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.pourlascience.fr/sd/mathematiques/et-si-l-infini-n-existait-pas-en-mathematiques-l-etrange-pari-de-l-ultrafinitisme-29419.php": {
-      "score": 2,
-      "reason": "Mathématiques pures sans lien technologie ou marché.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/les-prerequis-pour-reussir-le-deploiement-de-lia-a-lechelle-de-lentreprise/462820": {
-      "score": 8,
-      "reason": "Déploiement IA en production : défis concrets d'intégration, prérequis actionnables.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://www.frenchweb.fr/la-reglementation-boomerang-ces-lois-qui-manquent-leur-cible-et-penalisent-les-entreprises-europeennes/462760": {
-      "score": 9,
-      "reason": "Régulation boomerang Belgique/UE (colis chinois, taxe numérique, transparence textile) impact direct business.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://lejournal.cnrs.fr/articles/rechauffement-les-racines-au-secours-des-plantes": {
-      "score": 4,
-      "reason": "Adaptation racinaire intéressante scientifiquement mais sans application agronomique quantifiée.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://lejournal.cnrs.fr/videos/rechauffement-climatique-une-preuve-glacante-refait-surface": {
-      "score": 3,
-      "reason": "Historique scientifique (Claude Lorius) sans données marché ou décision énergie actuelle.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
-    "https://lejournal.cnrs.fr/articles/les-civilisations-de-lage-du-bronze-se-sont-elles-vraiment-effondrees": {
-      "score": 2,
-      "reason": "Archéologie méditerranéenne sans lien technologie ou économie.",
-      "scored_at": "2026-08-03T08:25:57.893438+00:00"
-    },
     "https://www.frenchweb.fr/a-lere-des-createurs-de-contenus-la-conference-b2b-doit-elle-se-reinventer/459968": {
       "score": 3,
       "reason": "Opinion générale sur l'événementiel sans données concrètes ni impact tech/marché.",
@@ -3084,6 +2834,741 @@
       "score": 7,
       "reason": "Analyse pertinente des inégalités IA et impact secteur (éducation, santé, finance) avec implications réglementaires potentielles UE.",
       "scored_at": "2026-08-10T06:09:06.600332+00:00"
+    },
+    "https://www.lemondeinformatique.fr/actualites/lire-departs-en-serie-de-specialistes-de-l-ia-chez-google-100739.html": {
+      "score": 4,
+      "reason": "Changement organisationnel sans impact concret sur les produits/outils IA disponibles.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://korben.info/fire-tv-stick-jellyfin-kodi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": {
+      "score": 8,
+      "reason": "Décision produit concrète : Fire TV Stick supprime Kodi/Jellyfin, impact direct pour utilisateurs media center.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.01net.com/actualites/porsche-officialise-718-electrique-scelle-sort-taycan.html": {
+      "score": 3,
+      "reason": "Actualité automobile sans lien tech pertinent pour veille stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://korben.info/linux-7-2-torvalds-code-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": {
+      "score": 8,
+      "reason": "IA relisant le code du noyau Linux = rupture technologique concrète avec impact mesurable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sante/actualites/alimentation-envie-bien-connue-enfin-explication-il-reste-presque-toujours-place-dessert-136812/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Science générale sans application technologique ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://korben.info/geforce-now-acces-bureau-windows.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": {
+      "score": 6,
+      "reason": "Découverte technique intéressante mais surtout anecdotique sur une limite d'interface.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/nature-environnement/chaleur-record-en-europe-de-l-ouest-pour-le-debut-de-l-ete-2026_194185?xtor=RSS-15": {
+      "score": 5,
+      "reason": "Données climat sans impact immédiat sur décisions tech/marché belge.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.01net.com/actualites/pourquoi-apple-renonce-dernier-moment-cette-fonction-ultra-pratique-sur-iphone.html": {
+      "score": 3,
+      "reason": "Rumeur produit Apple abandonnée, pas de décision d'orientation actuelle.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.01net.com/actualites/iphone-18-pro-apple-prendrait-une-decision-inhabituelle-au-sujet-des-precommandes.html": {
+      "score": 2,
+      "reason": "Spéculation sur dates Apple sans information concrète.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/conso/bons-plans/guides-pc-tablettes-ce-pc-portable-lenovo-promo-met-tout-monde-accord-avant-rentree-10967/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Publicité déguisée pour un produit en promotion.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sante/actualites/sport-contrairement-ce-quon-imagine-fragilite-etudiante-ne-naitrait-pas-pendant-etudes-k2m6-136821/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Étude sociologique sans lien tech ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.01net.com/actualites/pas-decran-design-rond-apple-prepare-une-refonte-majeure-de-lapple-watch.html": {
+      "score": 7,
+      "reason": "Refonte majeure Apple Watch attendue : décision d'orientation et nouveau produit à suivre.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/espace/systeme-solaire/12-aout-2026-journee-historique-pour-les-astrophiles_194115?xtor=RSS-9": {
+      "score": 2,
+      "reason": "Événement astronomique sans impact tech/marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.01net.com/actualites/pourquoi-cette-carte-nvidia-vaut-soudain-dix-fois-son-prix.html": {
+      "score": 9,
+      "reason": "Carte NVIDIA H100 redevient utile : impact prix marché GPU/IA immédiat et chiffré.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/planete/actualites/microplastique-nouveau-danger-microplastiques-oceans-pourraient-moins-bien-freiner-rechauffement-134958/#xtor%3DRSS-8": {
+      "score": 3,
+      "reason": "Recherche climat/environnement sans décision d'orientation tech actuelle.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.tomshardware.fr/openai-met-en-pause-certains-travaux-sur-astra-apres-des-resultats-juges-preoccupants-en-cybersecurite/": {
+      "score": 8,
+      "reason": "OpenAI pause agent IA pour risques cybersécurité : impact réglementaire/éthique IA concret.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.pourlascience.fr/sd/genetique/esperance-de-vie-l-influence-des-genes-est-elle-sous-estimee-29433.php": {
+      "score": 3,
+      "reason": "Étude génétique intéressante mais sans application tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/sciences/analyse-microbes-enquete-medecine-legale-secrets-scenes-crime-indice-suspect-meurtre-adn-police-recherche": {
+      "score": 3,
+      "reason": "Application scientifique générale sans impact tech/marché direct.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/nature-environnement/le-mucus-des-escargots-ce-super-pouvoir-aux-multiples-formes_194159?xtor=RSS-15": {
+      "score": 2,
+      "reason": "Recherche biologie sans pertinence tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sante/actualites/maladie-alzheimer-ce-medicament-pris-insomnie-pourrait-ouvrir-nouvelle-piste-alzheimer-w2t8-136816/#xtor%3DRSS-8": {
+      "score": 3,
+      "reason": "Découverte pharmaceutique sans lien tech/marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/monde/russie-veuves-noires-scandale-soldats-morts-ukraine-guerre-kremlin-arnaque": {
+      "score": 1,
+      "reason": "Géopolitique/crime sans lien tech ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-prix-ne-suffit-plus-cette-ia-croise-offres-vos-besoins-choisir-votre-smartphone-reconditionne-134894/#xtor%3DRSS-8": {
+      "score": 6,
+      "reason": "IA appliquée au e-commerce occasion : cas d'usage intéressant mais peu disruptif.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.tomshardware.fr/un-jailbreak-pour-ios-26-est-disponible-mais-est-ce-vraiment-utile/": {
+      "score": 4,
+      "reason": "Jailbreak iOS anecdotique sans impact utilisateur significatif.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/societe/lexplication/que-se-passe-t-il-si-l-on-creuse-plage-creuser-trou-tres-profond-sable": {
+      "score": 1,
+      "reason": "Curiosité générale sans pertinence tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sciences/actualites/eclipse-soleil-27-ans-plus-tard-je-revois-encore-2-minutes-eclipse-ont-change-facon-regarder-ciel-135925/#xtor%3DRSS-8": {
+      "score": 1,
+      "reason": "Témoignage personnel sur éclipse, contenu éditorial non actionnable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sante/actualites/corps-humain-chaleur-ne-fait-pas-fatiguer-votre-corps-peut-avoir-plus-mal-136766/#xtor%3DRSS-8": {
+      "score": 2,
+      "reason": "Article divulgatif sur santé/chaleur sans données chiffrées ni impact business/technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sciences/actualites/archeologie-ils-recreent-recette-vieille-2-000-ans-ils-appliquent-dent-k2m6-136809/#xtor%3DRSS-8": {
+      "score": 1,
+      "reason": "Fait historique anecdotique sur pratique dentaire ancienne, aucun lien technologie ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/sciences/grillons-chant-stridulation-metro-paris-gauchers-combats": {
+      "score": 1,
+      "reason": "Fait divers sur grillons du métro, sans pertinence technologique ou stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sciences/actualites/eclipse-soleil-photo-semaine-il-reussi-premier-cliche-eclipse-1851-vous-pouvez-faire-mieux-3-jours-136664/#xtor%3DRSS-8": {
+      "score": 1,
+      "reason": "Annonce d'événement astronomique sans information actionnable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/nature-environnement/les-cultures-de-soja-s-effondraient_193229?xtor=RSS-15": {
+      "score": 5,
+      "reason": "Analyse marché agricole avec tendance potentielle mais sans chiffres précis ni impact Belgique/UE daté.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.futura-sciences.com/sciences/actualites/eclipse-soleil-12-aout-rendez-vous-prepare-carte-localiser-evenements-pres-chez-vous-12-aout-136626/#xtor%3DRSS-8": {
+      "score": 1,
+      "reason": "Information événementielle sur éclipse, sans valeur stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/decouvrir/les-scientifiques-des-humains-faillibles-comme-les-autres_193771?xtor=RSS-27": {
+      "score": 3,
+      "reason": "Réflexion générale sur biais scientifiques sans données concrètes ou recommandations actionnables.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/espace/la-lune-disparaissait_193234?xtor=RSS-9": {
+      "score": 1,
+      "reason": "Spéculation théorique sur disparition Lune, aucun impact réel ou décisionnel.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/societe/couple-comportement-passif-agressif-therapie-psychologie-astuces-psychologues-conflit-communication-relations-amoureuses-partenaire": {
+      "score": 1,
+      "reason": "Conseils relationnels, catégorie mal placée (Électronique), sans lien tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/culture/evacuation-secrete-louvre-tableaux-statues-joconde-venus-milo-victoire-samothrace": {
+      "score": 1,
+      "reason": "Récit historique sur Louvre 1939, aucune pertinence technologique ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/monde/angleterre-oies-caca-excrements-courts-tennis-club-abattage-massacre-polemique-bernaches-canada-oiseaux-faune": {
+      "score": 1,
+      "reason": "Fait divers animalier sans impact stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/monde/revetement-eponge-bitume-maroc-temperature-ville-rues-routes-rechauffement-climatique-urbanisme-chaleur": {
+      "score": 6,
+      "reason": "Test de routes poreuses au Maroc avec données de refroidissement (9°C), intérêt limité pour Belgique/UE sans déploiement validé.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.pourlascience.fr/sd/biologie-animale/les-pigeons-ont-ils-une-boussole-dans-le-foie-29460.php": {
+      "score": 2,
+      "reason": "Étude biologique spéculative sur orientation pigeons, sans application technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/enfants/construction-cabanes-enfants-imagination-bonheur-vegetaux-bois": {
+      "score": 1,
+      "reason": "Analyse psychologique sur cabanes enfantines, hors scope technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/sante/dans-les-angles-morts-de-la-conscience_193754?xtor=RSS-16": {
+      "score": 2,
+      "reason": "Vue d'ensemble sur neurosciences et conscience sans découverte concrète exploitable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/monde/russie-sovintern-reseau-gauche-militants-guerre-ukraine-recrutement-propagande-vladimir-poutine": {
+      "score": 2,
+      "reason": "Géopolitique/propagande Moscou sans impact technologique ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/animaux/il-n-y-avait-plus-d-insectes_193236?xtor=RSS-26": {
+      "score": 3,
+      "reason": "Alerte écologique générale sur déclin insectes sans données quantifiées ni solutions technologiques.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/sciences/parasol-protection-soleil-chaleur-temperature-ete-uv-canicule-etude-scientifique-corps-humain": {
+      "score": 2,
+      "reason": "Fait scientifique mineur sur parasols sans impact décisionnel.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/culture/me-myself-and-i/autobiographie-didier-barbelivien-pleure-pas-nostalgie-albin-michel-souvenirs-claude-francois-johnny-hallyday-hommes": {
+      "score": 1,
+      "reason": "Critique littéraire d'autobiographie, aucun lien technologie.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/monde/soudan-papiers-enfant-identite-officielle-guerre-conflit-viols-femme-milice-paramilitaire-fsr": {
+      "score": 1,
+      "reason": "Reportage humanitaire Soudan sans pertinence technologique ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.slate.fr/sante/intelligence-artificielle-virus-bacterie-innovation-nature-animaux-humains-inquietude-recherche-scientifique-experience-chercheurs": {
+      "score": 8,
+      "reason": "Rupture technologique : IA générant nouveaux virus viables soulève enjeux éthiques/réglementaires concrets pour R&D et conformité.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.tomshardware.fr/liphone-18-pro-retarde-a-cause-des-penuries-de-ram/": {
+      "score": 6,
+      "reason": "Pénurie RAM/chaîne logistique TSMC impactant produits Apple, mais article court sans données détaillées.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencesetavenir.fr/sante/un-cas-de-rougeole-dans-le-parc-d-attractions-universal-studios-en-californie_194154?xtor=RSS-16": {
+      "score": 2,
+      "reason": "Cas épidémie rougeole aux US, intérêt santé publique sans lien technologie/marché Belgique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://korben.info/un-modele-de-meta-a-pirate-une-entreprise-pendant-un-test-et-cest-le-troisieme-cas-en-une-semaine.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": {
+      "score": 9,
+      "reason": "IA Meta a piraté système réel lors test : 3ème incident IA majeur en une semaine, impact critique sécurité/réglementation immédiat.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://korben.info/openai-pousse-trois-nouveaux-outils-dans-les-ecoles-en-pleine-epidemie-de-triche-a-lia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal": {
+      "score": 7,
+      "reason": "OpenAI lance outils éducatifs gratuits ChatGPT Teachers : nouveau produit/service à tester immédiatement en contexte scolaire.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/meta-quest-promo-code/": {
+      "score": 2,
+      "reason": "Article promotionnel sans valeur stratégique, simple annonce de codes de réduction.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/petlibro-discount-code/": {
+      "score": 1,
+      "reason": "Publicité pour produits animaliers, aucun lien avec veille technologique ou marchés.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/ll-bean-promo-code/": {
+      "score": 1,
+      "reason": "Publicité pure pour vêtements, hors scope veille technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/playstation-discount-code/": {
+      "score": 2,
+      "reason": "Codes promotionnels pour jeux PS5, sans information stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/samsung-promo-codes/": {
+      "score": 3,
+      "reason": "Mention Galaxy Z Fold7/Flip7 intéressante mais noyée dans annonce de réductions.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/att-promo-code/": {
+      "score": 1,
+      "reason": "Publicité télécom sans données de marché ou changements stratégiques.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/squarespace-promo-code/": {
+      "score": 2,
+      "reason": "Codes de réduction Squarespace, article promotionnel sans valeur.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.wired.com/story/casetify-promo-code/": {
+      "score": 1,
+      "reason": "Publicité pour accessoires téléphone, aucune pertinence stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.neowin.net/news/windows-11-admins-unhappy-as-microsoft-found-installing-unexpected-new-onedrive-photos-app/": {
+      "score": 7,
+      "reason": "Installation silencieuse d'app Photo par Microsoft relevé par admins, enjeu gouvernance Windows Enterprise concret.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/": {
+      "score": 6,
+      "reason": "Mise à jour clé GPG Firefox/Thunderbird, important pour sécurité mais annonce technique standard.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/": {
+      "score": 1,
+      "reason": "Défense opinion sur Guitar Hero, aucun lien avec veille technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories": {
+      "score": 9,
+      "reason": "Nvidia + Wall Street lève $500M pour IA infrastructure, impact direct sur coûts IA et marché semi-conducteurs.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hypercritical.co/hyperspace/": {
+      "score": 1,
+      "reason": "Titre vague sans contenu clair, impossible d'évaluer pertinence.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.floppydisk.com/recycle": {
+      "score": 1,
+      "reason": "Article sur recyclage disquettes, technologie obsolète, aucun impact stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hackaday.com/2026/08/10/the-pishot-is-ready-for-your-snaps/": {
+      "score": 5,
+      "reason": "Raspberry Pi caméra classique, formule connue sans rupture significative.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://github.com/antirez/h3.c": {
+      "score": 8,
+      "reason": "H3-metal: inférence native MiniMax-H3 sur Apple Silicon, nouveau produit IA à tester pour compatibilité.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories": {
+      "score": 4,
+      "reason": "Rocket Lab expansion vague, données mixtes, peu actionnable pour décisions tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://code.call-cc.org/releases/6.0.0/NEWS": {
+      "score": 4,
+      "reason": "Chicken Scheme 6.0 release technique, peu d'adoption/impact visible sur marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories": {
+      "score": 2,
+      "reason": "Marché immobilier US (hors Belgique), pas de données précises exploitables.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://everycube.alen.is/": {
+      "score": 1,
+      "reason": "Projet ludique énumération états Rubik's Cube, aucune utilité stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hackaday.com/2026/08/10/cotton-fiberglass-composite-makes-lightweight-rv-countertops/": {
+      "score": 3,
+      "reason": "Matériau composite léger intéressant mais niché (camping-cars), pas de marché stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories": {
+      "score": 3,
+      "reason": "Spéculation GameStop/eBay sans éléments factuels concrets.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/archer-strikes-deal-with-boeing-in-latest-bid-to-transform-aviation-through-ai-dac15322?mod=mw_rss_topstories": {
+      "score": 6,
+      "reason": "Archer-Boeing accord sur aéronautique IA, actualité marchés mais impact aviation niche.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories": {
+      "score": 2,
+      "reason": "Analyse Apple device pricing générale, opinion sans données chiffrées.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/intel-plans-to-sell-15-billion-worth-of-stock-after-it-has-risen-400-in-a-year-395effce?mod=mw_rss_topstories": {
+      "score": 7,
+      "reason": "Intel revente $15M stocks, mentionne AI physique et chips custom, signal stratégique mais context incomplet.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://worldtrainmap.com/": {
+      "score": 2,
+      "reason": "Carte de trains sans nouveauté tech ni impact business actionnable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories": {
+      "score": 7,
+      "reason": "Impact marché semi-conducteurs (HBM) avec implications pour stratégie d'approvisionnement chips IA.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.marketwatch.com/story/spacexs-stock-moves-above-its-ipo-price-for-the-first-time-in-almost-a-month-fc3f91b7?mod=mw_rss_topstories": {
+      "score": 3,
+      "reason": "Mouvement boursier SpaceX sans données chiffrées ni tendance structurelle claire.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/": {
+      "score": 1,
+      "reason": "Annonce d'événement sans contenu ou information actionnable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/": {
+      "score": 7,
+      "reason": "Meta lance nouveaux modèles IA open-source ; à tester pour benchmark vs Claude/GPT/Mistral.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision": {
+      "score": 1,
+      "reason": "Opinion personnelle sans données ou conclusions technologiques concrètes.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/": {
+      "score": 1,
+      "reason": "Politique sanitaire sans lien tech ; hors périmètre.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/": {
+      "score": 6,
+      "reason": "Cas d'école fermeture cloud gaming ; illustre risque propriété numérique mais sans nouveauté.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/": {
+      "score": 5,
+      "reason": "Observation organisationnelle sur IA en R&D matériaux ; peu spécifique et sans benchmark.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/gadgets/977626/anker-nano-travel-adapter-summer-travel-tech-deal-sale": {
+      "score": 3,
+      "reason": "Produit de voyage classique ; pas de rupture ni nouvelle technologie.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arachnoid.com/lutusp/sailbook.html": {
+      "score": 1,
+      "reason": "Récit personnel de navigation ; hors périmètre tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/": {
+      "score": 8,
+      "reason": "Amazon data center nucléaire off-grid pour IA ; impact énergétique et coûts TCO à évaluer.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/": {
+      "score": 1,
+      "reason": "Fait divers sans lien technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hackaday.com/2026/08/10/building-a-bicycle-dropper-seat-post/": {
+      "score": 2,
+      "reason": "Modification mécanique vélo ; pas de pertinence tech stratégique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/": {
+      "score": 5,
+      "reason": "Analyse tendance académie IA vague ; manque chiffres et recommandations concrètes.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/tech/977581/bluesky-hide-reposts-user-post-count-threads": {
+      "score": 4,
+      "reason": "Nouvelle feature Bluesky mineure ; peu pertinent pour décisions stratégiques.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/gadgets/977489/costco-switch-2-microsd-express-switch-online-expansion-deal-sale": {
+      "score": 5,
+      "reason": "Nintendo Switch 2 bundle ; info marketing sans impact décisionnel tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.vectorware.com/blog/simd-on-gpu/": {
+      "score": 8,
+      "reason": "Rust SIMD GPU : technique clé pour IA inference optimisé ; language decision pertinent.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hackaday.com/2026/08/10/teardown-of-an-oxford-nanopore-minion-dna-sequencer/": {
+      "score": 7,
+      "reason": "Nanopore sequencer : produit biotech concret à explorer pour applis IA/données.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event": {
+      "score": 6,
+      "reason": "Pixel 2026 preview ; info produit générale sans specs IA ou features clés.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.theverge.com/streaming/977474/youtube-partner-program-new-requirements": {
+      "score": 7,
+      "reason": "Changement YPP seuils monétisation (février 2027) ; impact direct créateurs et plateformes.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://cactuscompute.com/needle": {
+      "score": 9,
+      "reason": "Needle2 : 14MB LLM agentic pour edge (phones, wearables, robots) ; tester immédiatement.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/": {
+      "score": 3,
+      "reason": "Rumeur Ford SUV 25K$ ; gossip automobile sans confirmation ni spec tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://hackaday.com/2026/08/10/linux-fu-heads-or-tails-for-vpn/": {
+      "score": 5,
+      "reason": "Guide VPN Raspberry Pi ; tutoriel classique sans innovation.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.newscientist.com/article/2583030-what-primates-tell-us-about-the-evolutionary-origins-of-keeping-pets/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": {
+      "score": 1,
+      "reason": "Anthropologie animale ; hors périmètre tech/business.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808235011.htm": {
+      "score": 3,
+      "reason": "Étude médicale intéressante mais sans impact direct sur tech, prix ou réglementation.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.eetimes.com/leading-edge-ai-ic-designs-demand-comprehensive-hav-methodologies/": {
+      "score": 6,
+      "reason": "Méthodologie HAV pour AI SoC pertinente mais article trop technique/commercial sans données concrètes.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.newscientist.com/article/2583902-earth-extremophile-can-grow-in-near-mars-like-conditions/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": {
+      "score": 2,
+      "reason": "Recherche exobiologie sans application technologique ou commerciale directe.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/austria-says-no-to-the-tajik-government/": {
+      "score": 1,
+      "reason": "Affaire juridique géopolitique sans lien technologie, marché ou régulation Belgique/UE.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260810015714.htm": {
+      "score": 7,
+      "reason": "Découverte en catalyse argent pour énergie verte et hydrogène avec potentiel impact industrie.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/the-china-russia-north-korea-authoritarian-axis-looms-over-wars-in-ukraine-and-iran/": {
+      "score": 1,
+      "reason": "Analyse géopolitique sans données tech ou marché concrets.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/": {
+      "score": 7,
+      "reason": "AI agents pour science avec focus sur reasoning vs data—tendance clé pour futurs outils.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/southeast-asias-border-disputes-wars-in-waiting/": {
+      "score": 1,
+      "reason": "Géopolitique sans lien technologie ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808234956.htm": {
+      "score": 1,
+      "reason": "Paléontologie sans impact tech ou décision business.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/samsung-sk-hynix-tests-of-chinese-chip-tools-expose-cracks-in-us-export-strategy/": {
+      "score": 9,
+      "reason": "Samsung/SK Hynix évaluent équipements chinois—rupture stratégique semiconducteurs face sanctions US.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808235005.htm": {
+      "score": 2,
+      "reason": "Génétique historique intéressante mais sans application tech ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/": {
+      "score": 6,
+      "reason": "Peer review en crise avec IA—impact réel sur processus recherche mais sans données chiffrées.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.newscientist.com/article/2583747-quantum-voting-trickery-could-make-elections-more-secure/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": {
+      "score": 5,
+      "reason": "Quantum voting concept intéressant mais stade théorique sans déploiement concret.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260810015709.htm": {
+      "score": 1,
+      "reason": "Événement astronomique sans impact technologique ou réglementaire.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260810015703.htm": {
+      "score": 5,
+      "reason": "Ingénierie Voyager 2 impressionnante mais cas unique sans généralisation marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/": {
+      "score": 8,
+      "reason": "AI pour science : reasoning vs data—direction stratégique pour R&D et outils futurs.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/": {
+      "score": 8,
+      "reason": "Startups LLM post-transformer—nouveaux produits et paradigmes IA à suivre activement.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.eetimes.com/can-ai-command-earth-to-orbit-operations/": {
+      "score": 6,
+      "reason": "AI pour opérations aéronautique/défense pertinent mais article vague sans cas concrets.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/sheikh-hasinas-media-event-in-india-hits-bangladesh-india-ties/": {
+      "score": 1,
+      "reason": "Géopolitique sans lien tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260810015700.htm": {
+      "score": 1,
+      "reason": "Biologie évolution sans impact technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260807035153.htm": {
+      "score": 2,
+      "reason": "Astrophysique Saturn sans application pratique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/why-pakistan-is-pleased-with-its-counterterrorism-dialogue-with-the-us/": {
+      "score": 1,
+      "reason": "Géopolitique sans tech ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/bangladesh-joins-saudi-led-defense-coalition-as-bab-el-mandeb-risks-grow/": {
+      "score": 1,
+      "reason": "Géopolitique défense sans tech ou réglementation.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/myanmar-nationals-face-deportation-from-us-after-court-ruling/": {
+      "score": 1,
+      "reason": "Affaire juridique immigration sans tech.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808235003.htm": {
+      "score": 2,
+      "reason": "Étude nutritionnelle santé mentale sans lien tech, marché ou réglementation.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/the-quiet-vietnamese/": {
+      "score": 2,
+      "reason": "Géopolitique sans impact technologique ou marché direct, analyse politique générale.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808234959.htm": {
+      "score": 2,
+      "reason": "Étude santé générale, aucun lien avec technologie ou décisions d'orientation.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/myanmar-rejects-asean-call-for-suu-kyis-release-questions-need-for-special-envoy/": {
+      "score": 1,
+      "reason": "Politique régionale ASEAN, sans pertinence tech ou marché actionnable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808234953.htm": {
+      "score": 2,
+      "reason": "Étude santé cannabis, aucune application tech ou business décisionnelle.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808234948.htm": {
+      "score": 1,
+      "reason": "Conseil nutritionnel sans lien technologique ou impact marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808235013.htm": {
+      "score": 1,
+      "reason": "Archéologie historique sans application contemporaine pertinente.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260807035149.htm": {
+      "score": 5,
+      "reason": "Application biotech intéressante (dépollution uranium) mais sans marché ou déploiement concret daté.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/": {
+      "score": 1,
+      "reason": "Vulgarisation scientifique sans données ou implications actionnelles.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808235008.htm": {
+      "score": 1,
+      "reason": "Étude santé/alcool, aucun lien technologie ou orientation business.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260808234943.htm": {
+      "score": 9,
+      "reason": "Rupture semi-conducteurs 0.42nm : impact direct sur architectures futures, décision tech immédiate.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": {
+      "score": 2,
+      "reason": "Recherche neurosciences intéressante mais sans application tech ou marché quantifiée.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260807035151.htm": {
+      "score": 2,
+      "reason": "Étude cognitive sur stress, sans implication technologique ou décisionnelle.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/chinas-asian-affairs-reshuffle/": {
+      "score": 2,
+      "reason": "Reshuffle diplomatique chinois, analyse politique sans impact tech ou marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/the-murder-of-a-uyghur-in-america-spotlights-the-dangers-for-the-diaspora/": {
+      "score": 1,
+      "reason": "Politique géopolitique sans lien technologique ou impact marché quantifié.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/the-iran-us-war-a-win-for-china-not-so-fast/": {
+      "score": 1,
+      "reason": "Analyse géopolitique Iran-US-China sans données ou implications tech/marché.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/": {
+      "score": 7,
+      "reason": "Partenariat semicond BIWIN-Tera 2026 : benchmark chipsets/packaging, stratégie tech claire.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/": {
+      "score": 3,
+      "reason": "Théorie complot censorship + virus IA : article politique vague sans données tech précises.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/": {
+      "score": 2,
+      "reason": "Politique US censorship/Musk, sans données tech concrètes ou impact marché mesurable.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/": {
+      "score": 8,
+      "reason": "Chiplets automotive : orientation tech stratégique claire, alternative SoC bloatée avec ROI défini.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://thediplomat.com/2026/08/taiwans-missing-deterrent/": {
+      "score": 1,
+      "reason": "Stratégie militaire Taïwan, analyse politique sans composante tech décisionnelle.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://spectrum.ieee.org/risk": {
+      "score": 1,
+      "reason": "Contenu éditorial personnel, aucune information actionnable ou technologique.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
+    },
+    "https://spectrum.ieee.org/colossus-computer-ieee-milestone": {
+      "score": 2,
+      "reason": "Historique WWII informatique, intérêt culturel sans application contemporaine.",
+      "scored_at": "2026-08-11T05:51:29.824254+00:00"
     }
   }
 }
