@@ -2964,6 +2964,231 @@
       "score": 1,
       "reason": "Article historique (magnétophone années 1950) sans pertinence veille technologique actuelle.",
       "scored_at": "2026-08-14T06:10:56.863366+00:00"
+    },
+    "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu": {
+      "score": 1,
+      "reason": "Contenu cinéma/divertissement sans rapport tech ou business actionnable.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://hackaday.com/2026/08/14/uninvasive-eeg-interface-could-be-used-to-play-games/": {
+      "score": 7,
+      "reason": "Interface cerveau-machine non-invasive : nouveau produit à tester avec applications concrètes (jeux, accessibilité).",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories": {
+      "score": 2,
+      "reason": "Article vague sans données précises ni conclusion exploitable sur les taux d'intérêt.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.marketwatch.com/story/luigi-mangione-pleads-guilty-to-stalking-health-insurance-ceo-in-federal-court-d941ce3f?mod=mw_rss_topstories": {
+      "score": 1,
+      "reason": "Fait divers judiciaire sans impact tech ou marché.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones": {
+      "score": 8,
+      "reason": "Nouvelle fonctionnalité IA concrète (Camera Looks sur Pixel 11) : test immédiat recommandé pour décision technologique.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://content.knowledgehub.wiley.com/efficient-and-accurate-prediction-of-cosite-isolation-on-large-platforms/": {
+      "score": 3,
+      "reason": "Whitepaper technique générique sur simulation antennes sans nouveauté ou application spécifique.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/": {
+      "score": 4,
+      "reason": "Anecdote juridique sur usage mauvais d'IA sans impact décisionnel clair.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/": {
+      "score": 6,
+      "reason": "Décision réglementaire (géofencing) aux USA, pertinence limitée hors contexte compliance.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/": {
+      "score": 7,
+      "reason": "Cas réel de perte données cloud : impact critique sur stratégie stockage et fournisseurs.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast": {
+      "score": 1,
+      "reason": "Changement de logo Instagram : aucun impact tech ou business décisionnel.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://luacad.ad-si.com": {
+      "score": 6,
+      "reason": "Nouvel outil CAD (LuaCAD) intéressant pour designers, mais audience spécialisée limitée.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal": {
+      "score": 7,
+      "reason": "Mise à jour Gemini/Flow : suppression watermarks IA impacts décision utilisation générateurs IA.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://hackaday.com/2026/08/14/hackaday-podcast-episode-382-glueballs-borg-cubes-and-supersonic-trebuchets/": {
+      "score": 1,
+      "reason": "Podcast générique sur divers sujets sans contenu technologique nouveau actionnable.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/": {
+      "score": 5,
+      "reason": "Article sur réutilisabilité fusées sans données chiffrées ni implications concrètes pour décisions.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions": {
+      "score": 8,
+      "reason": "Guide Claude Code sessions : outil IA majeur, recommandé pour optimiser utilisation productivité.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://rustdesk.com/blog/unattended-remote-access-wayland/": {
+      "score": 7,
+      "reason": "RustDesk support Wayland : mise à jour significative outil accès distant, impact décision infra.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/": {
+      "score": 2,
+      "reason": "Article d'opinion sur jeux sans données chiffrées ni impact réglementaire concret.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.byhand.ai/": {
+      "score": 4,
+      "reason": "Produit IA générique sans description détaillée ni cas d'usage clair.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://thediplomat.com/2026/08/indonesia-is-the-latest-country-to-validate-chinas-claim-to-taiwan-unwittingly-or-not/": {
+      "score": 1,
+      "reason": "Géopolitique sans lien technologie ou marché.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/": {
+      "score": 9,
+      "reason": "Décision judiciaire Google Play avec délai 1 semaine : impact réglementaire UE/app stores majeur et daté.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/": {
+      "score": 9,
+      "reason": "Homomorphic encryption Google : nouvelle fonctionnalité IA privée révolutionnaire, test immédiat pour décisions infra.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://hackaday.com/2026/08/14/snooping-flume-water-monitor-data-on-the-wire/": {
+      "score": 6,
+      "reason": "Analyse IoT eau : cas d'étude sécurité intéressant mais audience spécialisée limitée.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs/": {
+      "score": 4,
+      "reason": "Whitepaper sponsorisé sur vérification SoC sans données concrètes ou benchmarks comparatifs.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://thediplomat.com/2026/08/singapores-israel-tightrope/": {
+      "score": 1,
+      "reason": "Géopolitique sans lien technologie.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/": {
+      "score": 1,
+      "reason": "Contenu cinéma/divertissement sans rapport tech ou business actionnable.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260812015214.htm": {
+      "score": 3,
+      "reason": "Découverte scientifique intéressante mais sans application technologique ou décision d'orientation concrète.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/": {
+      "score": 6,
+      "reason": "Changement de politique chez Flock suite à backlash, pertinent pour surveillance/compliance mais sans impact réglementaire belge daté.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://thediplomat.com/2026/08/north-korea-fires-ballistic-missiles-deepening-silence-fuels-analyst-speculation/": {
+      "score": 1,
+      "reason": "Géopolitique/faits divers sans lien avec technologie, prix ou réglementation.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260813045538.htm": {
+      "score": 2,
+      "reason": "Découverte astronomique sans application technologique ou décision d'orientation.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.eetimes.com/neuromorphic-computing-needs-more-than-novel-chips/": {
+      "score": 7,
+      "reason": "Analyse des défis du neuromorphic computing avec recommandations d'infrastructure; pertinent pour orientation tech mais manque comparatif chiffré.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260813045548.htm": {
+      "score": 2,
+      "reason": "Étude générale de santé sans impact marché, prix ou technologie actionnable.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/": {
+      "score": 3,
+      "reason": "Contenu éditorial général sur perception enfants/IA sans données précises ou nouvelles concrètes.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.eetimes.com/using-agents-to-maximize-nvidia-jetson-memory-usage-at-the-edge/": {
+      "score": 8,
+      "reason": "Conseil d'optimisation NVIDIA Jetson pratique et actionnable pour réduire coûts edge computing; idéal pour décision d'orientation.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.newscientist.com/article/2584532-the-best-photos-of-the-total-solar-eclipse/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": {
+      "score": 1,
+      "reason": "Contenu photographique d'événement sans lien technologie ou marché.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/": {
+      "score": 5,
+      "reason": "Analyse climat intéressante mais générale; données de tendance sans impact décision orientation tech précis.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260813045534.htm": {
+      "score": 2,
+      "reason": "Découverte paléontologique sans application technologique ou commerciale.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260813045531.htm": {
+      "score": 2,
+      "reason": "Recherche neuroscience générale sans impact technologie, marché ou décision orientation.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/": {
+      "score": 4,
+      "reason": "Étude perception enfants/IA anecdotique; manque données structurées et recommandations actionnables.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.eetimes.com/hong-kong-electronics-fairs-launch-in-october/": {
+      "score": 2,
+      "reason": "Annonce événementielle générique sans contenu technique ou données concrètes.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260812015216.htm": {
+      "score": 3,
+      "reason": "Découverte neuroscience intéressante mais application technologique lointaine et imprécise.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://www.sciencedaily.com/releases/2026/08/260812015218.htm": {
+      "score": 3,
+      "reason": "Étude comportementale sans lien orientation tech, prix ou réglementation.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://spectrum.ieee.org/ieee-course-ai-power-grids": {
+      "score": 8,
+      "reason": "Formation IEEE sur IA pour moderniser grids électriques; pertinent pour orientation et applicable en Belgique/Europe avec demande croissante.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market/": {
+      "score": 5,
+      "reason": "Rapport sur R&D waste et AI sans données chiffrées précises ou recommandations système actionnables.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://spectrum.ieee.org/how-to-negotiate-your-salary": {
+      "score": 1,
+      "reason": "Article carrière générique sans lien technologie ou stratégie.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
+    },
+    "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu": {
+      "score": 4,
+      "reason": "Article sur éducation IA/littératie; tendance pertinente mais sans données impact marché ou réglementation belge daté.",
+      "scored_at": "2026-08-15T05:21:40.377269+00:00"
     }
   }
 }
